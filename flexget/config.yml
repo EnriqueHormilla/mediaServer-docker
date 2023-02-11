@@ -3,7 +3,7 @@ web_server: yes
 schedules:
   - tasks: '*'
     interval:
-      minutes: 30
+      minutes: 1
 
 templates:
   tv:

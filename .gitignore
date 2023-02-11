@@ -1,5 +1,5 @@
 media/*
-plex/*
+storage/*
 .bash*
 .profile*
 .ssh*
@@ -10,5 +10,9 @@ downloads/*
 .DS_Store
 .env
 flexget/*.sqlite
+flexget/cached*
 transmission/dht.dat
 transmission/stats.json
+transmission/torrents/*
+transmission/resume/*
+*lock*

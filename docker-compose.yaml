@@ -2,45 +2,67 @@ version: "3.7"
 
 services:
 
-  samba:
-    image: dperson/samba # no hay tag con versiones, solo latest
-    restart: always
-    command: '-u "pi;password" -s "media;/media;yes;no" -s "downloads;/downloads;yes;no"'
-    stdin_open: true
-    tty: true
+  # samba:
+  #   image: dperson/samba # no hay tag con versiones, solo latest
+  #   restart: always
+  #   command: '-u "pi;password" -s "media;/media;yes;no" -s "downloads;/downloads;yes;no"'
+  #   stdin_open: true
+  #   tty: true
+  #   environment:
+  #     - TZ=Europe/Madrid
+  #   ports:
+  #     - 139:139
+  #     - 445:445
+  #   volumes:
+  #     - ${MEDIA}:/media
+  #     - ${STORAGE}/torrents:/downloads
+
+########################################### Media Server ###########################################
+  # plex:
+  #   image: jaymoulin/plex:1.30.1.6562
+  #   expose:
+  #     - 32400
+  #     - 33400
+  #   # Descomentar si NO usas network_mode: "host"
+  #   # ports:
+  #   #  - 32400:32400
+  #   #  - 33400:33400
+  #   environment:
+  #     - TZ=Europe/Madrid
+  #   volumes:
+  #     - ${STORAGE}/Plex Media Server:/root/Library/Application Support/Plex Media Server
+  #     - ${MEDIA}:/media
+  #     - ${STORAGE}/tmp:/tmp
+  #   restart: unless-stopped
+  #   network_mode: "host" # Solo funciona en Linux
+
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin:latest
     environment:
-      - TZ=America/Argentina/Mendoza
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+      - JELLYFIN_PublishedServerUrl=127.0.0.1 #optional
+    volumes:
+      - ${STORAGE}:/config
+      - ${MEDIA}:/data/tvshows
+      - ${MEDIA}:/data/movies
     ports:
-      - 139:139
-      - 445:445
-    volumes:
-      - ${MEDIA}:/media
-      - ${STORAGE}/torrents:/downloads
+      - 8096:8096
+      - 8920:8920 #optional
+      - 7359:7359/udp #optional
+      - 1900:1900/udp #optional
+    restart: unless-stopped    
 
-  plex:
-    image: jaymoulin/plex:1.30.1.6562
-    expose:
-      - 32400
-      - 33400
-    # Descomentar si NO usas network_mode: "host"
-    # ports:
-    #  - 32400:32400
-    #  - 33400:33400
-    environment:
-      - TZ=America/Argentina/Mendoza
-    volumes:
-      - ${STORAGE}/Plex Media Server:/root/Library/Application Support/Plex Media Server
-      - ${MEDIA}:/media
-      - ${STORAGE}/tmp:/tmp
-    restart: unless-stopped
-    network_mode: "host" # Solo funciona en Linux
-
+########################################### Clients Torrent ###########################################
   transmission:
     image : jaymoulin/transmission:3.00-1.6.1
     command: transmission-daemon -f -g /config
     volumes:
       - ./transmission:/config
       - ${STORAGE}/torrents:/downloads
+    environment:
+      - TZ=Europe/Madrid      
     ports:
       - 9091:9091
       - 51413:51413
@@ -49,6 +71,7 @@ services:
       - 9091
     restart: unless-stopped
 
+########################################### donwloaders ###########################################
   flexget:
     image: wiserain/flexget:3.5
     volumes:
@@ -59,8 +82,24 @@ services:
     ports:
       - 5050:5050
     environment:
+      - TZ=Europe/Madrid
       - PUID=1001
       - PGID=1001
       - TORRENT_PLUGIN=transmission
       - FG_WEBUI_PASSWD=p3l4d0_N3RD # la puedes cambiar por la que quieras
     restart: unless-stopped
+
+  # radarr:
+  #   image: lscr.io/linuxserver/radarr:latest
+  #   container_name: radarr
+  #   environment:
+  #     - PUID=1000
+  #     - PGID=1000
+  #     - TZ=Europe/London
+  #   volumes:
+  #     - ${STORAGE}:/config
+  #     - ${MEDIA}:/movies #optional
+  #     # - /path/to/downloadclient-downloads:/downloads #optional
+  #   ports:
+  #     - 7878:7878
+  #   restart: unless-stopped   
