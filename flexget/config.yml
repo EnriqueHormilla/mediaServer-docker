@@ -3,13 +3,21 @@ web_server: yes
 schedules:
   - tasks: '*'
     interval:
-      minutes: 1
+      minutes: 30
+#Ejemplo tocho https://flexget.com/Cookbook/Transmission
 
 templates:
   tv:
-    regexp:
+    regexp: # https://flexget.com/FilterOperations
       reject:
-        - x265: {from: title}
+        - mSD
+        - AFG
+      accept: # Si no se especifica, se quedan todas con Undecided (no se descartan ni aceptan)
+        # - x264
+        # - x265
+        - 720p
+        - 1080p
+        # - 2160p
     series:
       settings:
         tv:
@@ -17,34 +25,22 @@ templates:
           propers: 12 hours
           quality: 720p
       tv:
-      - Black Mirror
-      - Brooklyn Nine-Nine
-      - Homeland
-      - Luther
-      - Mr Robot
-      - Rick and Morty
-      - SEAL Team
-      - Sherlock
-      - Silicon Valley
-      - Suits
-      - The Flash
-      - The Good Fight
-      - The Walking Dead
-      - Tosh.0
-      - True Detective
-      - Westworld
-
+        - The Last of Us
     transmission:
       host: transmission
       port: 9091
       username: admin
       password: "123456"
-
+# Se puede testear las tareas con flexget --test execute --task eztvrss -v
 tasks:
   eztvrss:
-    rss: https://eztv.ag/ezrss.xml
+    rss: https://eztv.re/ezrss.xml
     template: tv
     priority: 2
+  # test:
+  #   rss: https://yts.mx/rss/0/all/all/0/es
+  #   template: tv
+  #   priority: 2
   sort_tv:
     priority: 2
     no_entries_ok: yes
@@ -81,12 +77,12 @@ tasks:
     exec:
       auto_escape: yes
       on_output:
-       for_entries: |
-         if mediainfo "{{ location }}" | grep EAC3; then
-           mkdir -p "/storage/pelis/{{ movie_name }} ({{ movie_year }})" && ffmpeg -hwaccel auto -y -i "{{ location }}" -map 0 -c:s copy -c:v copy -c:a ac3 -b:a 640k "/storage/pelis/{{ movie_name }} ({{ movie_year }})/{{ movie_name }} ({{ movie_year }}){{ location | pathext }}"
-         else
-           mkdir -p "/storage/pelis/{{ movie_name }} ({{ movie_year }})" && cp "{{ location }}" "/storage/pelis/{{ movie_name }} ({{ movie_year }})/{{ movie_name }} ({{ movie_year }}){{ location | pathext }}"
-         fi
+        for_entries: |
+          if mediainfo "{{ location }}" | grep EAC3; then
+            mkdir -p "/storage/pelis/{{ movie_name }} ({{ movie_year }})" && ffmpeg -hwaccel auto -y -i "{{ location }}" -map 0 -c:s copy -c:v copy -c:a ac3 -b:a 640k "/storage/pelis/{{ movie_name }} ({{ movie_year }})/{{ movie_name }} ({{ movie_year }}){{ location | pathext }}"
+          else
+            mkdir -p "/storage/pelis/{{ movie_name }} ({{ movie_year }})" && cp "{{ location }}" "/storage/pelis/{{ movie_name }} ({{ movie_year }})/{{ movie_name }} ({{ movie_year }}){{ location | pathext }}"
+          fi
   remove_stale_torrents:
     from_transmission:
       host: transmission
