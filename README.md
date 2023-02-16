@@ -1,103 +1,262 @@
-# Plex sobre Docker en Raspberry
+# Install media stack
 
-Con este repo podes crear tu propio server que descarga tus series y peliculas automáticamente, y cuando finaliza, las copia al directorio `media/` donde Plex las encuentra y las agrega a tu biblioteca.
+There are two media stacks available.
 
-También agregué un pequeño server samba por si querés compartir los archivos por red
+`stack-1` This stack contains Jellyfin, Radarr, Sonarr, Jackett and Transmission.
 
-Todo esto es parte de unos tutoriales que estoy subiendo a [Youtube](https://www.youtube.com/playlist?list=PLqRCtm0kbeHCEoCM8TR3VLQdoyR2W1_wv)
+`stack-2` This stack contains Jellyfin, Radarr, Sonarr, Prowlarr, qBitTorrent and VPN.
 
-NOTA: Esta repo fue actualizada para correr usando flexget y transmission [en este video](https://youtu.be/TqVoHWjz_tI), podés todavia acceder a la versión vieja (con rtorrent) en la branch [rtorrent](https://github.com/pablokbs/plex-rpi/tree/rtorrent)
-
-## Requerimientos iniciales
-
-Agregar tu usuario (cambiar `kbs` con tu nombre de usuario)
+Any one of them can be deployed using --profile option with docker-compose.
 
 ```
-sudo useradd kbs -G sudo
+docker network create mynetwork
+
+# Install Jellyfin, Radarr, Sonarr, Jackett and Transmission stack
+docker-compose --profile stack-1 up -d
+
+# Or, Install Jellyfin, Radarr, Sonarr, Prowlarr, qBitTorrent and VPN stack
+## By default NordVPN is configured. This can be changed to ExpressVPN, SurfShark, OpenVPN or Wireguard VPN by updating docker-compose.yml file. It uses OpenVPN type for all providers.
+
+VPN_SERVICE_PROVIDER=nordvpn OPENVPN_USER=openvpn-username OPENVPN_PASSWORD=openvpn-password SERVER_REGIONS=Switzerland docker-compose --profile stack-2 up -d
+
+docker-compose -f docker-compose-nginx.yml up -d # OPTIONAL to use Nginx as reverse proxy
 ```
 
-Agregar esto al sudoers para correr sudo sin password
+# Configure Transmission / qBittorrent
+
+For qBitTorrent, 
+
+- Open qBitTorrent at http://localhost:5080. Default username:password is admin:adminadmin
+- Go to Tools --> Options --> WebUI --> Change password
+
+For qBiTorrent / Transmission
+
+- From backend, Run below commands
 
 ```
-%sudo   ALL=(ALL:ALL) NOPASSWD:ALL
+# docker exec -it transmission bash # Get inside transmission container, OR
+docker exec -it qbittorrent bash # Get inside qBittorrent container
+
+mkdir /downloads/movies /downloads/tvshows
+chown 1000:1000 /downloads/movies /downloads/tvshows
 ```
 
-Agregar esta linea a `sshd_config` para que sólo tu usuario pueda hacer ssh
+# Add indexer to Jackett
+
+- Open Jackett UI at http://localhost:9117
+- Add indexer
+- Search for torrent indexer (e.g. the pirates bay, YTS)
+- Add selected
+
+# Configure Radarr
+
+- Open Radarr at http://localhost:7878
+- Settings --> Media Management --> Check mark "Movies deleted from disk are automatically unmonitored in Radarr" under File management section --> Save
+- Settings --> Indexers --> Add --> Add Rarbg indexer --> Add minimum seeder (4) --> Test --> Save
+- Settings --> Indexers --> Add --> Torznab --> Follow steps from Jackett to add indexer
+- Settings --> Download clients --> Transmission --> Add Host (transmission / qbittorrent) and port (9091 / 5080) --> Username and password if added --> Test --> Save **Note: If VPN is enabled, then transmission / qbittorrent is reachable on vpn's service name**
+- Settings --> General --> Enable advance setting --> Select AUthentication and add username and password
+
+# Add a movie
+
+- Movies --> Search for a movie --> Add Root folder (/downloads) --> Quality profile --> Add movie
+- Go to transmission (http://localhost:9091) and see if movie is getting downloaded.
+
+# Configure Jellyfin
+
+- Open Jellyfin at http://localhost:8096
+- Configure as it asks for first time.
+- Add media library folder and choose /data/movies/
+
+# Configure Jackett
+
+- Add admin password
+
+# Configure Prowlarr
+
+- Open Prowlarr at http://localhost:9696
+- Settings --> General --> Authentications --> Select AUthentication and add username and password
+- Add Indexers, Indexers --> Add Indexer --> Search for indexer --> Choose base URL --> Test and Save
+- Add application, Settings --> Apps --> Add application --> Choose Sonarr or Radarr or any apps to link --> Prowlarr server (http://localhost:9696) --> Radarr server (http://localhost:7878) --> API Key --> Test and Save
+- This will add indexers in respective apps automatically.
+
+# Apply SSL in Nginx
+
+- Open port 80 and 443.
+- Get inside Nginx container and install certbot and certbot-nginx `apk add certbot certbot-nginx`
+- Add URL in server block. e.g. `server_name  localhost armdev.navratangupta.in;` in /etc/nginx/conf.d/default.conf
+- Run `certbot --nginx` and provide details asked.
+
+
+# Configure Nginx
+
+- Get inside Nginx container
+- `cd /etc/nginx/conf.d`
+- Add proxies as per below for all tools.
+- OR, copy nginx.conf file to /etc/nginx/conf.d/default.conf and make necessary changes
+
+`docker cp nginx.conf nginx:/etc/nginx/conf.d/default.conf && docker exec -it nginx nginx -s reload`
+- Close ports of other tools in firewall/security groups except port 80 and 443.
+
+
+# Radarr Nginx reverse proxy
+
+- Settings --> General --> URL Base --> Add base (/radarr)
+- Add below proxy in nginx configuration
 
 ```
-echo "AllowUsers kbs" | sudo tee -a /etc/ssh/sshd_config
-sudo systemctl enable ssh && sudo systemctl start ssh
+location /radarr {
+    proxy_pass http://radarr:7878;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $http_connection;
+  }
 ```
 
-Instalar paquetes básicos
+- Restart containers.
+
+# Sonarr Nginx reverse proxy
+
+- Settings --> General --> URL Base --> Add base (/sonarr)
+- Add below proxy in nginx configuration
 
 ```
-sudo apt-get update && sudo apt-get install -y \
-     apt-transport-https \
-     ca-certificates \
-     curl \
-     gnupg2 \
-     software-properties-common \
-     vim \
-     fail2ban \
-     ntfs-3g
+location /radarr {
+    proxy_pass http://sonarr:8989;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $http_connection;
+  }
 ```
 
-Instalar Docker
+# Prowlarr Nginx reverse proxy
+
+- Settings --> General --> URL Base --> Add base (/prowlarr)
+- Add below proxy in nginx configuration
+
+This may need to change configurations in indexers and base in URL.
 
 ```
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
-sudo apt-key fingerprint 0EBFCD88
-echo "deb [arch=armhf] https://download.docker.com/linux/debian \
-     $(lsb_release -cs) stable" | \
-    sudo tee /etc/apt/sources.list.d/docker.list
-sudo apt-get update && sudo apt-get install -y --no-install-recommends docker-ce docker-compose
+location /prowlarr {
+    proxy_pass http://prowlarr:9696;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $http_connection;
+  }
 ```
 
-Modificá tu docker config para que guarde los temps en el disco:
+- Restart containers.
+
+# Jackett Nginx reverse proxy
+
+- Get inside jackett container and go to `/config/Jackett/`
+- Add `"BasePathOverride": "/jackett"` in ServerConfig.json file.
+- Add below proxy
 
 ```
-sudo vim /etc/default/docker
-# Agregar esta linea al final con la ruta de tu disco externo montado
-export DOCKER_TMPDIR="/mnt/storage/docker-tmp"
+location /jackett/ {
+    proxy_pass         http://jackett:9117;
+    proxy_http_version 1.1;
+    proxy_set_header   Upgrade $http_upgrade;
+    proxy_set_header   Connection keep-alive;
+    proxy_cache_bypass $http_upgrade;
+    proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header   X-Forwarded-Proto $scheme;
+    proxy_set_header   X-Forwarded-Host $http_host;
+}
 ```
 
-Agregar tu usuario al grupo docker 
+- Restart containers
+
+# Transmission Nginx reverse proxy
+
+- Add below proxy in Nginx config
 
 ```
-# Add kbs to docker group
-sudo usermod -a -G docker kbs
-#(logout and login)
-docker-compose up -d
+location ^~ /transmission {
+      
+          proxy_set_header X-Real-IP $remote_addr;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header Host $http_host;
+          proxy_set_header X-NginX-Proxy true;
+          proxy_http_version 1.1;
+          proxy_set_header Connection "";
+          proxy_pass_header X-Transmission-Session-Id;
+          add_header   Front-End-Https   on;
+      
+          location /transmission/rpc {
+              proxy_pass http://transmission:9091;
+          }
+      
+          location /transmission/web/ {
+              proxy_pass http://transmission:9091;
+          }
+      
+          location /transmission/upload {
+              proxy_pass http://transmission:9091;
+          }
+          
+          location /transmission {
+              return 301 https://$host/transmission/web;
+          }
+}
 ```
 
-Montar el disco (es necesario ntfs-3g si es que tenes tu disco en NTFS)
-NOTA: en este [link](https://youtu.be/OYAnrmbpHeQ?t=5543) pueden ver la explicación en vivo
+**Note: If VPN is enabled, then transmission is reachable on vpn's service name**
+
+# qBittorrent Nginx proxy
 
 ```
-# usamos la terminal como root porque vamos a ejecutar algunos comandos que necesitan ese modo de ejecución
-sudo su
-# buscamos el disco que querramos montar (por ejemplo la partición sdb1 del disco sdb)
-fdisk -l
-# pueden usar el siguiente comando para obtener el UUID
-ls -l /dev/disk/by-uuid/
-# y simplemente montamos el disco en el archivo /etc/fstab (pueden hacerlo por el editor que les guste o por consola)
-echo UUID="{nombre del disco o UUID que es único por cada disco}" {directorio donde queremos montarlo} (por ejemplo /mnt/storage) ntfs-3g defaults,auto 0 0 | \
-     sudo tee -a /etc/fstab
-# por último para que lea el archivo fstab
-mount -a (o reiniciar)
+location /qbt/ {
+    proxy_pass         http://qbittorrent:5080/;
+    proxy_http_version 1.1;
+
+    proxy_set_header   Host               http://qbittorrent:5080;
+    proxy_set_header   X-Forwarded-Host   $http_host;
+    proxy_set_header   X-Forwarded-For    $remote_addr;
+    proxy_cookie_path  /                  "/; Secure";
+}
 ```
 
-## Cómo correrlo
+**Note: If VPN is enabled, then qbittorrent is reachable on vpn's service name**
 
-Simplemente bajate este repo y modificá las rutas de tus archivos en el archivo (oculto) .env, y después corré:
+# Jellyfin Nginx proxy
 
-`docker-compose up -d`
+- Add base URL, Admin Dashboard -> Networking -> Base URL (/jellyfin)
+- Add below config in Ngix config
 
-## IMPORTANTE
+```
+ location /jellyfin {
+        return 302 $scheme://$host/jellyfin/;
+    }
 
-Las raspberry son computadoras excelentes pero no muy potentes, y plex por defecto intenta transcodear los videos para ahorrar ancho de banda (en mi opinión, una HORRIBLE idea), y la chiquita raspberry no se aguanta este transcodeo "al vuelo", entonces hay que configurar los CLIENTES de plex (si, hay que hacerlo en cada cliente) para que intente reproducir el video en la máxima calidad posible, evitando transcodear y pasando el video derecho a tu tele o Chromecast sin procesar nada, de esta forma, yo he tenido 3 reproducciones concurrentes sin ningún problema. En android y iphone las opciones son muy similares, dejo un screenshot de Android acá:
+    location /jellyfin/ {
 
-<img src="https://i.imgur.com/F3kZ9Vh.png" alt="plex" width="400"/>
+        proxy_pass http://jellyfin:8096/jellyfin/;
 
-Más info acá: https://github.com/pablokbs/plex-rpi/issues/3
+        proxy_pass_request_headers on;
+
+        proxy_set_header Host $host;
+
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-Host $http_host;
+
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection $http_connection;
+
+        # Disable buffering when the nginx proxy gets very resource heavy upon streaming
+        proxy_buffering off;
+    }
+```
+- Restart containers
