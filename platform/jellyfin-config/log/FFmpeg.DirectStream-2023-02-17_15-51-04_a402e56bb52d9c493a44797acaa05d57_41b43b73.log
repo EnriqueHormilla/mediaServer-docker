@@ -1,0 +1,128 @@
+/videos/a402e56b-b52d-9c49-3a44-797acaa05d57/hls1/main/0.ts
+
+{"Protocol":0,"Id":"a402e56bb52d9c493a44797acaa05d57","Path":"/data/tvshows/House of the Dragon/Season 1/House of the Dragon - S01E01 - The Heirs of the Dragon HDTV-720p.mkv","EncoderPath":null,"EncoderProtocol":null,"Type":0,"Container":"mkv,webm","Size":2237084310,"Name":"House of the Dragon - S01E01 - The Heirs of the Dragon HDTV-720p","IsRemote":false,"ETag":"af8a786c540d449c11cb5c5a96571e5c","RunTimeTicks":39364480000,"ReadAtNativeFramerate":false,"IgnoreDts":false,"IgnoreIndex":false,"GenPtsInput":false,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"OpenToken":null,"RequiresClosing":false,"LiveStreamId":null,"BufferMs":null,"RequiresLooping":false,"SupportsProbing":true,"VideoType":0,"IsoType":null,"Video3DFormat":null,"MediaStreams":[{"Codec":"h264","CodecTag":null,"Language":null,"ColorRange":null,"ColorSpace":"bt709","ColorTransfer":"bt709","ColorPrimaries":"bt709","DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":null,"VideoRange":"SDR","VideoRangeType":"SDR","VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"720p H264 SDR","NalLengthSize":"4","IsInterlaced":false,"IsAVC":true,"ChannelLayout":null,"BitRate":4546401,"BitDepth":8,"RefFrames":1,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":true,"IsForced":false,"Height":720,"Width":1280,"AverageFrameRate":23.976025,"RealFrameRate":23.976025,"Profile":"Main","Type":1,"AspectRatio":"16:9","Index":0,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":"yuv420p","Level":31,"IsAnamorphic":null},{"Codec":"ac3","CodecTag":null,"Language":"spa","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"Castellano","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"Castellano - Spanish - Dolby Digital - 5.1 - Default","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":"5.1","BitRate":384000,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":6,"SampleRate":48000,"IsDefault":true,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":0,"AspectRatio":null,"Index":1,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"eac3","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"Ingl\u00E9s","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":null,"LocalizedDefault":null,"LocalizedForced":null,"LocalizedExternal":null,"DisplayTitle":"Ingl\u00E9s - English - Dolby Digital\u002B - 5.1","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":"5.1","BitRate":768000,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":6,"SampleRate":48000,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":0,"AspectRatio":null,"Index":2,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"subrip","CodecTag":null,"Language":"spa","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"Castellano [Forzados]","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Indefinido","LocalizedDefault":"Predeterminado","LocalizedForced":"Forzado","LocalizedExternal":"External","DisplayTitle":"Castellano [Forzados] - Spanish - SUBRIP","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":true,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":3,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"subrip","CodecTag":null,"Language":"spa","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"Castellano [Completos]","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Indefinido","LocalizedDefault":"Predeterminado","LocalizedForced":"Forzado","LocalizedExternal":"External","DisplayTitle":"Castellano [Completos] - Spanish - SUBRIP","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":4,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"subrip","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"Ingl\u00E9s [Completos]","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Indefinido","LocalizedDefault":"Predeterminado","LocalizedForced":"Forzado","LocalizedExternal":"External","DisplayTitle":"Ingl\u00E9s [Completos] - English - SUBRIP","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":5,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null},{"Codec":"subrip","CodecTag":null,"Language":"eng","ColorRange":null,"ColorSpace":null,"ColorTransfer":null,"ColorPrimaries":null,"DvVersionMajor":null,"DvVersionMinor":null,"DvProfile":null,"DvLevel":null,"RpuPresentFlag":null,"ElPresentFlag":null,"BlPresentFlag":null,"DvBlSignalCompatibilityId":null,"Comment":null,"TimeBase":"1/1000","CodecTimeBase":null,"Title":"Ingl\u00E9s [Para sordos]","VideoRange":null,"VideoRangeType":null,"VideoDoViTitle":null,"LocalizedUndefined":"Indefinido","LocalizedDefault":"Predeterminado","LocalizedForced":"Forzado","LocalizedExternal":"External","DisplayTitle":"Ingl\u00E9s [Para sordos] - English - SUBRIP","NalLengthSize":null,"IsInterlaced":false,"IsAVC":null,"ChannelLayout":null,"BitRate":null,"BitDepth":null,"RefFrames":null,"PacketLength":null,"Channels":null,"SampleRate":null,"IsDefault":false,"IsForced":false,"Height":null,"Width":null,"AverageFrameRate":null,"RealFrameRate":null,"Profile":null,"Type":2,"AspectRatio":null,"Index":6,"Score":null,"IsExternal":false,"DeliveryMethod":null,"DeliveryUrl":null,"IsExternalUrl":null,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Path":null,"PixelFormat":null,"Level":0,"IsAnamorphic":null}],"MediaAttachments":[],"Formats":[],"Bitrate":5698401,"Timestamp":null,"RequiredHttpHeaders":{},"TranscodingUrl":null,"TranscodingSubProtocol":null,"TranscodingContainer":null,"AnalyzeDurationMs":null,"DefaultAudioStreamIndex":null,"DefaultSubtitleStreamIndex":null}
+
+/usr/lib/jellyfin-ffmpeg/ffmpeg -analyzeduration 200M -fflags +genpts -f matroska,webm  -i file:"/data/tvshows/House of the Dragon/Season 1/House of the Dragon - S01E01 - The Heirs of the Dragon HDTV-720p.mkv" -map_metadata -1 -map_chapters -1 -threads 0 -map 0:0 -map 0:1 -map -0:s -codec:v:0 copy -bsf:v h264_mp4toannexb -start_at_zero -codec:a:0 libfdk_aac -ac 2 -ab 384000 -af "volume=2" -copyts -avoid_negative_ts disabled -max_muxing_queue_size 2048 -f hls -max_delay 5000000 -hls_time 6 -hls_segment_type mpegts -start_number 0 -hls_segment_filename "/config/data/transcodes/839e308b90cd33acf9444168f030e268%d.ts" -hls_playlist_type vod -hls_list_size 0 -y "/config/data/transcodes/839e308b90cd33acf9444168f030e268.m3u8"
+
+
+ffmpeg version 5.1.2-Jellyfin Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.3.0-1ubuntu1~22.04)
+  configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-libs=-lfftw3f --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-ptx-compression --disable-shared --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto --enable-gpl --enable-version3 --enable-static --enable-gmp --enable-gnutls --enable-chromaprint --enable-libdrm --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libdav1d --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --arch=amd64 --enable-libsvtav1 --enable-libshaderc --enable-libplacebo --enable-vulkan --enable-opencl --enable-vaapi --enable-amf --enable-libmfx --enable-ffnvcodec --enable-cuda --enable-cuda-llvm --enable-cuvid --enable-nvdec --enable-nvenc
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, matroska,webm, from 'file:/data/tvshows/House of the Dragon/Season 1/House of the Dragon - S01E01 - The Heirs of the Dragon HDTV-720p.mkv':
+  Metadata:
+    title           : La.Casa.del.Dragón.1x01.Episodio.1.m720p.HMAX.WEB-DL.DD51.H.264-eth@n
+    encoder         : libebml v1.4.2 + libmatroska v1.6.4
+    creation_time   : 2022-08-22T01:11:14.000000Z
+  Duration: 01:05:36.45, start: 0.000000, bitrate: 4546 kb/s
+  Stream #0:0: Video: h264 (Main), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      BPS             : 3392007
+      DURATION        : 01:05:36.433000000
+      NUMBER_OF_FRAMES: 94380
+      NUMBER_OF_BYTES : 1669051325
+      _STATISTICS_WRITING_APP: mkvmerge v68.0.0 ('The Curtain') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2022-08-22 01:11:14
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(spa): Audio: ac3, 48000 Hz, 5.1(side), fltp, 384 kb/s (default)
+    Metadata:
+      title           : Castellano
+      BPS             : 384000
+      DURATION        : 01:05:36.416000000
+      NUMBER_OF_FRAMES: 123013
+      NUMBER_OF_BYTES : 188947968
+      _STATISTICS_WRITING_APP: mkvmerge v68.0.0 ('The Curtain') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2022-08-22 01:11:14
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(eng): Audio: eac3, 48000 Hz, 5.1(side), fltp, 768 kb/s
+    Metadata:
+      title           : Inglés
+      BPS             : 768000
+      DURATION        : 01:05:36.448000000
+      NUMBER_OF_FRAMES: 123014
+      NUMBER_OF_BYTES : 377899008
+      _STATISTICS_WRITING_APP: mkvmerge v68.0.0 ('The Curtain') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2022-08-22 01:11:14
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:3(spa): Subtitle: subrip (forced)
+    Metadata:
+      title           : Castellano [Forzados]
+      BPS             : 3
+      DURATION        : 00:40:31.679000000
+      NUMBER_OF_FRAMES: 24
+      NUMBER_OF_BYTES : 986
+      _STATISTICS_WRITING_APP: mkvmerge v68.0.0 ('The Curtain') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2022-08-22 01:11:14
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:4(spa): Subtitle: subrip
+    Metadata:
+      title           : Castellano [Completos]
+      BPS             : 53
+      DURATION        : 01:02:44.177000000
+      NUMBER_OF_FRAMES: 643
+      NUMBER_OF_BYTES : 24963
+      _STATISTICS_WRITING_APP: mkvmerge v68.0.0 ('The Curtain') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2022-08-22 01:11:14
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:5(eng): Subtitle: subrip
+    Metadata:
+      title           : Inglés [Completos]
+      BPS             : 52
+      DURATION        : 01:02:44.052000000
+      NUMBER_OF_FRAMES: 690
+      NUMBER_OF_BYTES : 24596
+      _STATISTICS_WRITING_APP: mkvmerge v68.0.0 ('The Curtain') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2022-08-22 01:11:14
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:6(eng): Subtitle: subrip
+    Metadata:
+      title           : Inglés [Para sordos]
+      BPS             : 60
+      DURATION        : 01:05:00.563000000
+      NUMBER_OF_FRAMES: 946
+      NUMBER_OF_BYTES : 29502
+      _STATISTICS_WRITING_APP: mkvmerge v68.0.0 ('The Curtain') 64-bit
+      _STATISTICS_WRITING_DATE_UTC: 2022-08-22 01:11:14
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (ac3 (native) -> aac (libfdk_aac))
+Press [q] to stop, [?] for help
+Output #0, hls, to '/config/data/transcodes/839e308b90cd33acf9444168f030e268.m3u8':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (Main), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 23.98 fps, 23.98 tbr, 90k tbn (default)
+  Stream #0:1: Audio: aac, 48000 Hz, stereo, s16, 384 kb/s (default)
+    Metadata:
+      encoder         : Lavc59.37.100 libfdk_aac
+frame=    1 fps=0.0 q=-1.0 size=N/A time=-00:00:00.02 bitrate=N/A speed=N/A    
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e2680.ts' for writing
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e2681.ts' for writing
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e2682.ts' for writing
+frame=  517 fps=0.0 q=-1.0 size=N/A time=00:00:00.23 bitrate=N/A speed=0.473x    
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e2683.ts' for writing
+frame=  725 fps=723 q=-1.0 size=N/A time=00:00:09.04 bitrate=N/A speed=9.03x    
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e2684.ts' for writing
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e2685.ts' for writing
+frame=  973 fps=647 q=-1.0 size=N/A time=00:00:19.18 bitrate=N/A speed=12.8x    
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e2686.ts' for writing
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e2687.ts' for writing
+frame= 1207 fps=603 q=-1.0 size=N/A time=00:00:28.88 bitrate=N/A speed=14.4x    
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e2688.ts' for writing
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e2689.ts' for writing
+frame= 1512 fps=602 q=-1.0 size=N/A time=00:00:41.58 bitrate=N/A speed=16.6x    
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e26810.ts' for writing
+
+
+[q] command received. Exiting.
+
+[hls @ 0x55f5b8ac9c40] Opening '/config/data/transcodes/839e308b90cd33acf9444168f030e26811.ts' for writing
+frame= 1673 fps=589 q=-1.0 Lsize=N/A time=00:00:48.53 bitrate=N/A speed=17.1x    
+video:22199kB audio:3282kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown

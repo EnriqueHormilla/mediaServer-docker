@@ -2,9 +2,9 @@
 
 There are two media stacks available.
 
-`stack-1` This stack contains Jellyfin, Radarr, Sonarr, Jackett and Transmission.
+`base` This stack contains Jellyfin, Radarr, Sonarr, Jackett and Transmission.
 
-`stack-2` This stack contains Jellyfin, Radarr, Sonarr, Prowlarr, qBitTorrent and VPN.
+`vpn` This stack contains Jellyfin, Radarr, Sonarr, Jackett and Transmission and VPN.
 
 Any one of them can be deployed using --profile option with docker-compose.
 
@@ -12,30 +12,24 @@ Any one of them can be deployed using --profile option with docker-compose.
 docker network create mynetwork
 
 # Install Jellyfin, Radarr, Sonarr, Jackett and Transmission stack
-docker-compose --profile stack-1 up -d
+docker-compose --profile base up -d
 
-# Or, Install Jellyfin, Radarr, Sonarr, Prowlarr, qBitTorrent and VPN stack
+# Or, Install Jellyfin, Radarr, Sonarr, Jackett and Transmission and VPN stack
 ## By default NordVPN is configured. This can be changed to ExpressVPN, SurfShark, OpenVPN or Wireguard VPN by updating docker-compose.yml file. It uses OpenVPN type for all providers.
 
-VPN_SERVICE_PROVIDER=nordvpn OPENVPN_USER=openvpn-username OPENVPN_PASSWORD=openvpn-password SERVER_REGIONS=Switzerland docker-compose --profile stack-2 up -d
+VPN_SERVICE_PROVIDER=nordvpn OPENVPN_USER=openvpn-username OPENVPN_PASSWORD=openvpn-password SERVER_REGIONS=Switzerland docker-compose --profile vpn up -d
 
 docker-compose -f docker-compose-nginx.yml up -d # OPTIONAL to use Nginx as reverse proxy
 ```
 
-# Configure Transmission / qBittorrent
+# Configure Transmission
 
-For qBitTorrent, 
-
-- Open qBitTorrent at http://localhost:5080. Default username:password is admin:adminadmin
-- Go to Tools --> Options --> WebUI --> Change password
-
-For qBiTorrent / Transmission
+For Transmission
 
 - From backend, Run below commands
 
 ```
-# docker exec -it transmission bash # Get inside transmission container, OR
-docker exec -it qbittorrent bash # Get inside qBittorrent container
+docker exec -it transmission bash # Get inside transmission container
 
 mkdir /downloads/movies /downloads/tvshows
 chown 1000:1000 /downloads/movies /downloads/tvshows
@@ -71,14 +65,6 @@ chown 1000:1000 /downloads/movies /downloads/tvshows
 # Configure Jackett
 
 - Add admin password
-
-# Configure Prowlarr
-
-- Open Prowlarr at http://localhost:9696
-- Settings --> General --> Authentications --> Select AUthentication and add username and password
-- Add Indexers, Indexers --> Add Indexer --> Search for indexer --> Choose base URL --> Test and Save
-- Add application, Settings --> Apps --> Add application --> Choose Sonarr or Radarr or any apps to link --> Prowlarr server (http://localhost:9696) --> Radarr server (http://localhost:7878) --> API Key --> Test and Save
-- This will add indexers in respective apps automatically.
 
 # Apply SSL in Nginx
 
@@ -126,25 +112,6 @@ location /radarr {
 ```
 location /radarr {
     proxy_pass http://sonarr:8989;
-    proxy_set_header Host $host;
-    proxy_set_header X-Real-IP $remote_addr;
-    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_http_version 1.1;
-    proxy_set_header Upgrade $http_upgrade;
-    proxy_set_header Connection $http_connection;
-  }
-```
-
-# Prowlarr Nginx reverse proxy
-
-- Settings --> General --> URL Base --> Add base (/prowlarr)
-- Add below proxy in nginx configuration
-
-This may need to change configurations in indexers and base in URL.
-
-```
-location /prowlarr {
-    proxy_pass http://prowlarr:9696;
     proxy_set_header Host $host;
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -212,22 +179,6 @@ location ^~ /transmission {
 ```
 
 **Note: If VPN is enabled, then transmission is reachable on vpn's service name**
-
-# qBittorrent Nginx proxy
-
-```
-location /qbt/ {
-    proxy_pass         http://qbittorrent:5080/;
-    proxy_http_version 1.1;
-
-    proxy_set_header   Host               http://qbittorrent:5080;
-    proxy_set_header   X-Forwarded-Host   $http_host;
-    proxy_set_header   X-Forwarded-For    $remote_addr;
-    proxy_cookie_path  /                  "/; Secure";
-}
-```
-
-**Note: If VPN is enabled, then qbittorrent is reachable on vpn's service name**
 
 # Jellyfin Nginx proxy
 

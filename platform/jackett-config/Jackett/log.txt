@@ -1,0 +1,1326 @@
+2023-02-17 09:11:48.3674 Info Starting Jackett v0.20.3150 
+2023-02-17 09:11:49.9014 Info Environment version: 6.0.14 (/app/Jackett/) 
+2023-02-17 09:11:49.9112 Info OS version: Unix 5.10.16.3 (64bit OS) (64bit process) 
+2023-02-17 09:11:49.9204 Info Jackett variant: CoreLinuxMuslAmdx64 
+2023-02-17 09:11:49.9275 Info File /etc/issue: Welcome to Alpine Linux 3.17 
+2023-02-17 09:11:49.9275 Info Running in Docker: Yes (image build: v0.20.3150-ls94) 
+2023-02-17 09:11:49.9433 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-02-17 09:11:49.9511 Info App config/log directory: /config/Jackett 
+2023-02-17 09:11:49.9613 Info Using proxy: Disabled 
+2023-02-17 09:11:49.9814 Info Using FlareSolverr: No 
+2023-02-17 09:11:49.9934 Info Using HTTP Client: HttpWebClient2 
+2023-02-17 09:11:50.0657 Info Loading Native indexers ... 
+2023-02-17 09:11:50.4576 Info Loaded 76 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, audiobookbay, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, uniotaku, xspeeds, zonaq, animetosho, morethantv-api 
+2023-02-17 09:11:50.4735 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-02-17 09:11:53.4341 Info Loaded 494 Cardigann indexers: dark-shadow, unionfansub, hdc, rapidzona, libranet, cpasbienclone, 0daykiev, jme-reunit3d-api, skipthetrailers, mteamtp2fa, mircrew, soulvoice, mvgroupforum, theoccult, reelflix-api, yggtorrent, 3dtorrents, metaltracker, the-crazy-ones, movietorrent, rainbowtracker, torrent9, cloudtorrents, peeratiko, whiteangel, bitspyder, hdonly, bitsearch, learnbits, hdroute, selezen, finvip, indietorrents, btsow, torrentproject2, kinozal, gimmepeers, acervos, cathoderaytube, cinemamovies, btschool, hd-unit3d-api, datascene-api, torrentz2nz, puntotorrent, putao, pussytorrents, torrentwhiz, hd4fans, torrentdownload, dodder, ccfbits, RockBox, acrossthetasman, torrentccf, falkonvisionteam, pctorrent, gay-torrentsorg, torrentmasters, rintor, happyfappy, opencd, portugas-api, kickasstorrents-to, yourbittorrent, chdbits, byrbt, aither-api, aidoruonline, oshenpt, isohunt2, theshow, torrentkitty, greekdiamond, btmet, ihdbits, scenerush, miobt, les-cinephiles, nyaasi, torrentlt, cpasbien, cartoonchaos, divteam, borgzelle, p2pbg, 2fast4you, crnaberza, tornado, dmhy, showrss, empornium, arenabg, sosulki, madsrevolution, bitbazis, btetree, hdatmos, cpasbiensi, audionews, hdchina, finelite, acidlounge, thevault, hdarea, teamhd, bithumen, thedarkcommunity, sktorrent-org, file-tracker, aussierules, turktorrent, glodls, nipponsei, fuzer, teamctgame, r3vwtf, animetracker, chilebt, fluxzone, uhdbits, comicat, rus-media, torrent-turk, aftershock, tokyotosho, funkytorrents, concen, animeworld-api, world-of-tomorrow, discfan, crazyspirits, snowpt, tjupt, sporthd, totheglorycookie, noname-club, pthome, crazyhd, audiences, solidtorrents, sdbits, 1ptbar, torrentgalaxy, speedtorrentreloaded, majomparade, digitalcore, beyond-hd, hdmayi, peersfm, 2xfree, idope, sharkpt, torrentsir, blutopia-api, girotorrent, femdomcult, unleashthecartoons, mma-torrents, 1337x, racingforme, cinematik, slosoul, mesevilag, xwtclassics, turkseed, thegeeks, superbits, magicheaven, ptchina, linuxtracker, pornleech, eztv, magico, datatalli, bt4g, lesaloon, ilcorsaroblu, bwtorrents, marinetracker, hdforever, rudub, brsociety-api, skipthecommercials-api, torrentoyunindir, ourbits, pttime, xiteme, muziekfabriek, fantastiko, mixtapetorrent, houseofdevil, hellashut, potuk, pornbay, gay-torrents, limetorrents, booktracker, nethd, hddolby, firebit, boxingtorrents, danishbytes-api, torrent-pirat, diablotorrent, theplace, thenewfun, tapochek, huntorrent, abnormal, pornotorrent, kickasstorrents-ws, amigosshare, torrentfunk, torrentland, haitang, hdmonkey, sukebeinyaasi, traht, empornium2fa, theoldschool-api, newstudio, uniondht, korsar, yggcookie, torrentcore, frozenlayer, lemonhd, rutracker-ru, mypornclub, gktorrent, newretro, asiandvdclub, internetarchive, pterclub, theempire, icc2022, hdu, deildu, xthor-api, bootytape, animelayer, trancetraffic, rintornet, hdhome, torrentseeds-api, trezzor, classix, mactorrentsdownload, rustorka, theleachzone, concertos, sktorrent, mousebits, extremebits, ilcorsaronero, seedfile, wihd, redstartorrent, docspedia, generationfree-api, speedmasterhd, kinorun, immortuos, locadora, eniahd, mvgroupmain, unlimitz, fenyarnyek-tracker, totheglory, btdigg, torrenthr, bigfangroup, bitded, arabp2p, megamixtracker, hdturk, anime-free, acgsou, crt2fa, sportscult, catorrent, polishtracker-api, krazyzone, mojblink, tekno3d, learnflakes, twilight, losslessclub, crackingpatching, arabafenice, vsttorrents, nicept, xxxtorrents, btnext, theshinning-api, leech24, puurhollands, anthelion-api, Bittorrentfiles, dxp, freshmeat, extremetorrents, torrentqq, lastfiles, xxxadulttorrent, hdolimpo-api, ebookbay, noname-clubl, torrentleech-pl, exkinoray, torrenting, ptsbao, demonoid, limetorrentsclone, rutor, torrent911, coastalcrew, newstudiol, megapeer, torrentdownloads, mikan, devil-torrents, gtorrentpro, bestcore, ebooks-shares, tvroad, hdcztorrent, torrentz2eu, ydypt, torrent-explosiv, itorrent, bitofvalor, anisource, pixelcove2fa, vtorrent, torrentv, bluebirdhd, pornoslab, rptorrents, fantasticheaven, redbits-api, filelisting, swarmazon-api, cinemageddon, 4thd, hdtime, nntt, acgrip, parnuxi, beitai, esharenet, racing4everyone-api, piratbitl, haidan, xbytesv2, teamos, themixingbowl, byrutor, torrent9clone, torlock, shareisland-api, ftuapps, jptv, bitturk, onejav, mazepa, tmghub, keepfriends, pornforall, extratorrent-st, thefallingangels, 52pt, backups, pwtorrents, proporno, badasstorrents, sharewood, uniongang, insanetracker, pixelcove, torrentleech, moviesite, xxxtor, carpathians, movietorrentz, bulltorrent, jpopsuki, torrentby, desitorrents-api, woot, gaytorrentru, seedoff, siambit, 0magnet, ehentai, moviesdvdr, fanoin, hebits, ptfiles, satclubbing, genesismovement, exttorrents, tribalmixes, thesceneplace, gainbound, bithorlo, shanaproject, zomb, broadcity, hawke-uno, anilibria, knaben, kufirc, estone, bangumi-moe, dimeadozen, asiancinema, hdtorrentsit, spidertk, vsthouse, torrentbd, carphunter, lst, tlfbits, myspleen, mnv, yts, springsunday, greekteam, lepornoinfo, torrentslocal, 3changtrai, tasmanit, riperam, ptmsg, bitsexy, dreamtracker, tellytorrent-api, hhanclub, ceskeforum, romanianmetaltorrents, torrentview, oldtoonsworld, pignetwork, xtremebytes, ztracker, zmpt, rgfootball, bibliotik, sexypics, polishsource, bitnova, linkomanija, electro-torrent, joyhd, piratbit, zetorrents, lat-team-api, abtorrents, hdfans, spiritofrevolution, zamundanet, bitru, torrentsectorcrew, zelkaorg, hdsky, xtorrenty, gigatorrents, aniRena, trupornolabs, sugoimusic, thepiratebay, proaudiotorrents, resurrectthenet, gamestorrents, karagarga, hdzone, hdgalaktik, legittorrents, punkshorror, jav-torrent, xwtorrents, pier720, mteamtp, u2, carpt, totallykids, hqmusic, dariustracker, extremlymtorrents, teracod, milkie, tvchaosuk 
+2023-02-17 09:11:53.4472 Info Loaded 570 indexers in total 
+2023-02-17 09:11:53.4616 Info Adding aggregate indexer ('all' indexer) ... 
+2023-02-17 09:11:53.5021 Info Adding filter indexer ('type:public' indexer) ... 
+2023-02-17 09:11:53.5128 Info Adding filter indexer ('type:private' indexer) ... 
+2023-02-17 09:11:53.5222 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-02-17 09:11:54.1245 Warn No XML encryptor configured. Key {3dc7775d-233f-4117-b93e-1b2af90881f7} may be persisted to storage in unencrypted form. 
+2023-02-17 09:11:54.3035 Info Jackett startup finished in 7.150 s 
+2023-02-17 09:13:54.6612 Info Test search in MejorTorrent => Found 12 releases 
+2023-02-17 09:35:00.1035 Info Test search in The Pirate Bay => Found 50 releases 
+2023-02-17 09:44:41.3497 Info Jackett stopped 
+2023-02-17 10:45:01.0433 Info Starting Jackett v0.20.3150 
+2023-02-17 10:45:02.0808 Info Environment version: 6.0.14 (/app/Jackett/) 
+2023-02-17 10:45:02.0808 Info OS version: Unix 5.10.16.3 (64bit OS) (64bit process) 
+2023-02-17 10:45:02.0952 Info Jackett variant: CoreLinuxMuslAmdx64 
+2023-02-17 10:45:02.1008 Info File /etc/issue: Welcome to Alpine Linux 3.17 
+2023-02-17 10:45:02.1081 Info Running in Docker: Yes (image build: v0.20.3150-ls94) 
+2023-02-17 10:45:02.1081 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-02-17 10:45:02.1208 Info App config/log directory: /config/Jackett 
+2023-02-17 10:45:02.1279 Info Using proxy: Disabled 
+2023-02-17 10:45:02.1279 Info Using FlareSolverr: No 
+2023-02-17 10:45:02.1419 Info Using HTTP Client: HttpWebClient2 
+2023-02-17 10:45:02.1865 Info Loading Native indexers ... 
+2023-02-17 10:45:02.4587 Info Loaded 76 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, audiobookbay, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, uniotaku, xspeeds, zonaq, animetosho, morethantv-api 
+2023-02-17 10:45:02.4795 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-02-17 10:45:04.3674 Info Loaded 494 Cardigann indexers: dark-shadow, unionfansub, hdc, rapidzona, libranet, cpasbienclone, 0daykiev, jme-reunit3d-api, skipthetrailers, mteamtp2fa, mircrew, soulvoice, mvgroupforum, theoccult, reelflix-api, yggtorrent, 3dtorrents, metaltracker, the-crazy-ones, movietorrent, rainbowtracker, torrent9, cloudtorrents, peeratiko, whiteangel, bitspyder, hdonly, bitsearch, learnbits, hdroute, selezen, finvip, indietorrents, btsow, torrentproject2, kinozal, gimmepeers, acervos, cathoderaytube, cinemamovies, btschool, hd-unit3d-api, datascene-api, torrentz2nz, puntotorrent, putao, pussytorrents, torrentwhiz, hd4fans, torrentdownload, dodder, ccfbits, RockBox, acrossthetasman, torrentccf, falkonvisionteam, pctorrent, gay-torrentsorg, torrentmasters, rintor, happyfappy, opencd, portugas-api, kickasstorrents-to, yourbittorrent, chdbits, byrbt, aither-api, aidoruonline, oshenpt, isohunt2, theshow, torrentkitty, greekdiamond, btmet, ihdbits, scenerush, miobt, les-cinephiles, nyaasi, torrentlt, cpasbien, cartoonchaos, divteam, borgzelle, p2pbg, 2fast4you, crnaberza, tornado, dmhy, showrss, empornium, arenabg, sosulki, madsrevolution, bitbazis, btetree, hdatmos, cpasbiensi, audionews, hdchina, finelite, acidlounge, thevault, hdarea, teamhd, bithumen, thedarkcommunity, sktorrent-org, file-tracker, aussierules, turktorrent, glodls, nipponsei, fuzer, teamctgame, r3vwtf, animetracker, chilebt, fluxzone, uhdbits, comicat, rus-media, torrent-turk, aftershock, tokyotosho, funkytorrents, concen, animeworld-api, world-of-tomorrow, discfan, crazyspirits, snowpt, tjupt, sporthd, totheglorycookie, noname-club, pthome, crazyhd, audiences, solidtorrents, sdbits, 1ptbar, torrentgalaxy, speedtorrentreloaded, majomparade, digitalcore, beyond-hd, hdmayi, peersfm, 2xfree, idope, sharkpt, torrentsir, blutopia-api, girotorrent, femdomcult, unleashthecartoons, mma-torrents, 1337x, racingforme, cinematik, slosoul, mesevilag, xwtclassics, turkseed, thegeeks, superbits, magicheaven, ptchina, linuxtracker, pornleech, eztv, magico, datatalli, bt4g, lesaloon, ilcorsaroblu, bwtorrents, marinetracker, hdforever, rudub, brsociety-api, skipthecommercials-api, torrentoyunindir, ourbits, pttime, xiteme, muziekfabriek, fantastiko, mixtapetorrent, houseofdevil, hellashut, potuk, pornbay, gay-torrents, limetorrents, booktracker, nethd, hddolby, firebit, boxingtorrents, danishbytes-api, torrent-pirat, diablotorrent, theplace, thenewfun, tapochek, huntorrent, abnormal, pornotorrent, kickasstorrents-ws, amigosshare, torrentfunk, torrentland, haitang, hdmonkey, sukebeinyaasi, traht, empornium2fa, theoldschool-api, newstudio, uniondht, korsar, yggcookie, torrentcore, frozenlayer, lemonhd, rutracker-ru, mypornclub, gktorrent, newretro, asiandvdclub, internetarchive, pterclub, theempire, icc2022, hdu, deildu, xthor-api, bootytape, animelayer, trancetraffic, rintornet, hdhome, torrentseeds-api, trezzor, classix, mactorrentsdownload, rustorka, theleachzone, concertos, sktorrent, mousebits, extremebits, ilcorsaronero, seedfile, wihd, redstartorrent, docspedia, generationfree-api, speedmasterhd, kinorun, immortuos, locadora, eniahd, mvgroupmain, unlimitz, fenyarnyek-tracker, totheglory, btdigg, torrenthr, bigfangroup, bitded, arabp2p, megamixtracker, hdturk, anime-free, acgsou, crt2fa, sportscult, catorrent, polishtracker-api, krazyzone, mojblink, tekno3d, learnflakes, twilight, losslessclub, crackingpatching, arabafenice, vsttorrents, nicept, xxxtorrents, btnext, theshinning-api, leech24, puurhollands, anthelion-api, Bittorrentfiles, dxp, freshmeat, extremetorrents, torrentqq, lastfiles, xxxadulttorrent, hdolimpo-api, ebookbay, noname-clubl, torrentleech-pl, exkinoray, torrenting, ptsbao, demonoid, limetorrentsclone, rutor, torrent911, coastalcrew, newstudiol, megapeer, torrentdownloads, mikan, devil-torrents, gtorrentpro, bestcore, ebooks-shares, tvroad, hdcztorrent, torrentz2eu, ydypt, torrent-explosiv, itorrent, bitofvalor, anisource, pixelcove2fa, vtorrent, torrentv, bluebirdhd, pornoslab, rptorrents, fantasticheaven, redbits-api, filelisting, swarmazon-api, cinemageddon, 4thd, hdtime, nntt, acgrip, parnuxi, beitai, esharenet, racing4everyone-api, piratbitl, haidan, xbytesv2, teamos, themixingbowl, byrutor, torrent9clone, torlock, shareisland-api, ftuapps, jptv, bitturk, onejav, mazepa, tmghub, keepfriends, pornforall, extratorrent-st, thefallingangels, 52pt, backups, pwtorrents, proporno, badasstorrents, sharewood, uniongang, insanetracker, pixelcove, torrentleech, moviesite, xxxtor, carpathians, movietorrentz, bulltorrent, jpopsuki, torrentby, desitorrents-api, woot, gaytorrentru, seedoff, siambit, 0magnet, ehentai, moviesdvdr, fanoin, hebits, ptfiles, satclubbing, genesismovement, exttorrents, tribalmixes, thesceneplace, gainbound, bithorlo, shanaproject, zomb, broadcity, hawke-uno, anilibria, knaben, kufirc, estone, bangumi-moe, dimeadozen, asiancinema, hdtorrentsit, spidertk, vsthouse, torrentbd, carphunter, lst, tlfbits, myspleen, mnv, yts, springsunday, greekteam, lepornoinfo, torrentslocal, 3changtrai, tasmanit, riperam, ptmsg, bitsexy, dreamtracker, tellytorrent-api, hhanclub, ceskeforum, romanianmetaltorrents, torrentview, oldtoonsworld, pignetwork, xtremebytes, ztracker, zmpt, rgfootball, bibliotik, sexypics, polishsource, bitnova, linkomanija, electro-torrent, joyhd, piratbit, zetorrents, lat-team-api, abtorrents, hdfans, spiritofrevolution, zamundanet, bitru, torrentsectorcrew, zelkaorg, hdsky, xtorrenty, gigatorrents, aniRena, trupornolabs, sugoimusic, thepiratebay, proaudiotorrents, resurrectthenet, gamestorrents, karagarga, hdzone, hdgalaktik, legittorrents, punkshorror, jav-torrent, xwtorrents, pier720, mteamtp, u2, carpt, totallykids, hqmusic, dariustracker, extremlymtorrents, teracod, milkie, tvchaosuk 
+2023-02-17 10:45:04.3763 Info Loaded 570 indexers in total 
+2023-02-17 10:45:04.3860 Info Adding aggregate indexer ('all' indexer) ... 
+2023-02-17 10:45:04.4017 Info Adding filter indexer ('type:public' indexer) ... 
+2023-02-17 10:45:04.4092 Info Adding filter indexer ('type:private' indexer) ... 
+2023-02-17 10:45:04.4092 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-02-17 10:45:04.5766 Info Jackett startup finished in 4.404 s 
+2023-02-17 10:45:28.0580 Info Test search in The Pirate Bay => Found 50 releases 
+2023-02-17 10:45:29.1567 Info Test search in MejorTorrent => Found 12 releases 
+2023-02-17 10:46:36.2584 Info Jackett stopped 
+2023-02-17 10:46:54.5633 Info Starting Jackett v0.20.3150 
+2023-02-17 10:46:55.0891 Info Environment version: 6.0.14 (/app/Jackett/) 
+2023-02-17 10:46:55.0891 Info OS version: Unix 5.10.16.3 (64bit OS) (64bit process) 
+2023-02-17 10:46:55.1019 Info Jackett variant: CoreLinuxMuslAmdx64 
+2023-02-17 10:46:55.1019 Info File /etc/issue: Welcome to Alpine Linux 3.17 
+2023-02-17 10:46:55.1122 Info Running in Docker: Yes (image build: v0.20.3150-ls94) 
+2023-02-17 10:46:55.1179 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-02-17 10:46:55.1179 Info App config/log directory: /config/Jackett 
+2023-02-17 10:46:55.1303 Info Using proxy: Disabled 
+2023-02-17 10:46:55.1303 Info Using FlareSolverr: No 
+2023-02-17 10:46:55.1427 Info Using HTTP Client: HttpWebClient2 
+2023-02-17 10:46:55.1995 Info Loading Native indexers ... 
+2023-02-17 10:46:55.4101 Info Loaded 76 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, audiobookbay, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, uniotaku, xspeeds, zonaq, animetosho, morethantv-api 
+2023-02-17 10:46:55.4101 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-02-17 10:46:56.8777 Info Loaded 494 Cardigann indexers: dark-shadow, unionfansub, hdc, rapidzona, libranet, cpasbienclone, 0daykiev, jme-reunit3d-api, skipthetrailers, mteamtp2fa, mircrew, soulvoice, mvgroupforum, theoccult, reelflix-api, yggtorrent, 3dtorrents, metaltracker, the-crazy-ones, movietorrent, rainbowtracker, torrent9, cloudtorrents, peeratiko, whiteangel, bitspyder, hdonly, bitsearch, learnbits, hdroute, selezen, finvip, indietorrents, btsow, torrentproject2, kinozal, gimmepeers, acervos, cathoderaytube, cinemamovies, btschool, hd-unit3d-api, datascene-api, torrentz2nz, puntotorrent, putao, pussytorrents, torrentwhiz, hd4fans, torrentdownload, dodder, ccfbits, RockBox, acrossthetasman, torrentccf, falkonvisionteam, pctorrent, gay-torrentsorg, torrentmasters, rintor, happyfappy, opencd, portugas-api, kickasstorrents-to, yourbittorrent, chdbits, byrbt, aither-api, aidoruonline, oshenpt, isohunt2, theshow, torrentkitty, greekdiamond, btmet, ihdbits, scenerush, miobt, les-cinephiles, nyaasi, torrentlt, cpasbien, cartoonchaos, divteam, borgzelle, p2pbg, 2fast4you, crnaberza, tornado, dmhy, showrss, empornium, arenabg, sosulki, madsrevolution, bitbazis, btetree, hdatmos, cpasbiensi, audionews, hdchina, finelite, acidlounge, thevault, hdarea, teamhd, bithumen, thedarkcommunity, sktorrent-org, file-tracker, aussierules, turktorrent, glodls, nipponsei, fuzer, teamctgame, r3vwtf, animetracker, chilebt, fluxzone, uhdbits, comicat, rus-media, torrent-turk, aftershock, tokyotosho, funkytorrents, concen, animeworld-api, world-of-tomorrow, discfan, crazyspirits, snowpt, tjupt, sporthd, totheglorycookie, noname-club, pthome, crazyhd, audiences, solidtorrents, sdbits, 1ptbar, torrentgalaxy, speedtorrentreloaded, majomparade, digitalcore, beyond-hd, hdmayi, peersfm, 2xfree, idope, sharkpt, torrentsir, blutopia-api, girotorrent, femdomcult, unleashthecartoons, mma-torrents, 1337x, racingforme, cinematik, slosoul, mesevilag, xwtclassics, turkseed, thegeeks, superbits, magicheaven, ptchina, linuxtracker, pornleech, eztv, magico, datatalli, bt4g, lesaloon, ilcorsaroblu, bwtorrents, marinetracker, hdforever, rudub, brsociety-api, skipthecommercials-api, torrentoyunindir, ourbits, pttime, xiteme, muziekfabriek, fantastiko, mixtapetorrent, houseofdevil, hellashut, potuk, pornbay, gay-torrents, limetorrents, booktracker, nethd, hddolby, firebit, boxingtorrents, danishbytes-api, torrent-pirat, diablotorrent, theplace, thenewfun, tapochek, huntorrent, abnormal, pornotorrent, kickasstorrents-ws, amigosshare, torrentfunk, torrentland, haitang, hdmonkey, sukebeinyaasi, traht, empornium2fa, theoldschool-api, newstudio, uniondht, korsar, yggcookie, torrentcore, frozenlayer, lemonhd, rutracker-ru, mypornclub, gktorrent, newretro, asiandvdclub, internetarchive, pterclub, theempire, icc2022, hdu, deildu, xthor-api, bootytape, animelayer, trancetraffic, rintornet, hdhome, torrentseeds-api, trezzor, classix, mactorrentsdownload, rustorka, theleachzone, concertos, sktorrent, mousebits, extremebits, ilcorsaronero, seedfile, wihd, redstartorrent, docspedia, generationfree-api, speedmasterhd, kinorun, immortuos, locadora, eniahd, mvgroupmain, unlimitz, fenyarnyek-tracker, totheglory, btdigg, torrenthr, bigfangroup, bitded, arabp2p, megamixtracker, hdturk, anime-free, acgsou, crt2fa, sportscult, catorrent, polishtracker-api, krazyzone, mojblink, tekno3d, learnflakes, twilight, losslessclub, crackingpatching, arabafenice, vsttorrents, nicept, xxxtorrents, btnext, theshinning-api, leech24, puurhollands, anthelion-api, Bittorrentfiles, dxp, freshmeat, extremetorrents, torrentqq, lastfiles, xxxadulttorrent, hdolimpo-api, ebookbay, noname-clubl, torrentleech-pl, exkinoray, torrenting, ptsbao, demonoid, limetorrentsclone, rutor, torrent911, coastalcrew, newstudiol, megapeer, torrentdownloads, mikan, devil-torrents, gtorrentpro, bestcore, ebooks-shares, tvroad, hdcztorrent, torrentz2eu, ydypt, torrent-explosiv, itorrent, bitofvalor, anisource, pixelcove2fa, vtorrent, torrentv, bluebirdhd, pornoslab, rptorrents, fantasticheaven, redbits-api, filelisting, swarmazon-api, cinemageddon, 4thd, hdtime, nntt, acgrip, parnuxi, beitai, esharenet, racing4everyone-api, piratbitl, haidan, xbytesv2, teamos, themixingbowl, byrutor, torrent9clone, torlock, shareisland-api, ftuapps, jptv, bitturk, onejav, mazepa, tmghub, keepfriends, pornforall, extratorrent-st, thefallingangels, 52pt, backups, pwtorrents, proporno, badasstorrents, sharewood, uniongang, insanetracker, pixelcove, torrentleech, moviesite, xxxtor, carpathians, movietorrentz, bulltorrent, jpopsuki, torrentby, desitorrents-api, woot, gaytorrentru, seedoff, siambit, 0magnet, ehentai, moviesdvdr, fanoin, hebits, ptfiles, satclubbing, genesismovement, exttorrents, tribalmixes, thesceneplace, gainbound, bithorlo, shanaproject, zomb, broadcity, hawke-uno, anilibria, knaben, kufirc, estone, bangumi-moe, dimeadozen, asiancinema, hdtorrentsit, spidertk, vsthouse, torrentbd, carphunter, lst, tlfbits, myspleen, mnv, yts, springsunday, greekteam, lepornoinfo, torrentslocal, 3changtrai, tasmanit, riperam, ptmsg, bitsexy, dreamtracker, tellytorrent-api, hhanclub, ceskeforum, romanianmetaltorrents, torrentview, oldtoonsworld, pignetwork, xtremebytes, ztracker, zmpt, rgfootball, bibliotik, sexypics, polishsource, bitnova, linkomanija, electro-torrent, joyhd, piratbit, zetorrents, lat-team-api, abtorrents, hdfans, spiritofrevolution, zamundanet, bitru, torrentsectorcrew, zelkaorg, hdsky, xtorrenty, gigatorrents, aniRena, trupornolabs, sugoimusic, thepiratebay, proaudiotorrents, resurrectthenet, gamestorrents, karagarga, hdzone, hdgalaktik, legittorrents, punkshorror, jav-torrent, xwtorrents, pier720, mteamtp, u2, carpt, totallykids, hqmusic, dariustracker, extremlymtorrents, teracod, milkie, tvchaosuk 
+2023-02-17 10:46:56.8840 Info Loaded 570 indexers in total 
+2023-02-17 10:46:56.8898 Info Adding aggregate indexer ('all' indexer) ... 
+2023-02-17 10:46:56.8993 Info Adding filter indexer ('type:public' indexer) ... 
+2023-02-17 10:46:56.8993 Info Adding filter indexer ('type:private' indexer) ... 
+2023-02-17 10:46:56.8993 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-02-17 10:46:57.0375 Info Jackett startup finished in 3.166 s 
+2023-02-17 11:12:43.0295 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 11:12:44.2932 Info Torznab search in The Pirate Bay => Found 3 releases 
+2023-02-17 11:12:50.0488 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 11:12:50.0594 Info Torznab search in The Pirate Bay => Found 3 releases (from cache) 
+2023-02-17 11:12:50.4828 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 11:12:50.4828 Info Torznab search in The Pirate Bay => Found 3 releases (from cache) 
+2023-02-17 11:14:02.9954 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 11:14:05.7657 Info Torznab search in MejorTorrent => Found 12 releases 
+2023-02-17 11:17:16.6459 Info Jackett stopped 
+2023-02-17 11:17:35.5241 Info Starting Jackett v0.20.3150 
+2023-02-17 11:17:36.6195 Info Environment version: 6.0.14 (/app/Jackett/) 
+2023-02-17 11:17:36.6276 Info OS version: Unix 5.10.16.3 (64bit OS) (64bit process) 
+2023-02-17 11:17:36.6276 Info Jackett variant: CoreLinuxMuslAmdx64 
+2023-02-17 11:17:36.6437 Info File /etc/issue: Welcome to Alpine Linux 3.17 
+2023-02-17 11:17:36.6517 Info Running in Docker: Yes (image build: v0.20.3150-ls94) 
+2023-02-17 11:17:36.6612 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-02-17 11:17:36.6694 Info App config/log directory: /config/Jackett 
+2023-02-17 11:17:36.6782 Info Using proxy: Disabled 
+2023-02-17 11:17:36.6782 Info Using FlareSolverr: No 
+2023-02-17 11:17:36.6978 Info Using HTTP Client: HttpWebClient2 
+2023-02-17 11:17:36.7795 Info Loading Native indexers ... 
+2023-02-17 11:17:37.1820 Info Loaded 76 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, audiobookbay, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, uniotaku, xspeeds, zonaq, animetosho, morethantv-api 
+2023-02-17 11:17:37.1926 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-02-17 11:17:39.5221 Info Loaded 494 Cardigann indexers: dark-shadow, unionfansub, hdc, rapidzona, libranet, cpasbienclone, 0daykiev, jme-reunit3d-api, skipthetrailers, mteamtp2fa, mircrew, soulvoice, mvgroupforum, theoccult, reelflix-api, yggtorrent, 3dtorrents, metaltracker, the-crazy-ones, movietorrent, rainbowtracker, torrent9, cloudtorrents, peeratiko, whiteangel, bitspyder, hdonly, bitsearch, learnbits, hdroute, selezen, finvip, indietorrents, btsow, torrentproject2, kinozal, gimmepeers, acervos, cathoderaytube, cinemamovies, btschool, hd-unit3d-api, datascene-api, torrentz2nz, puntotorrent, putao, pussytorrents, torrentwhiz, hd4fans, torrentdownload, dodder, ccfbits, RockBox, acrossthetasman, torrentccf, falkonvisionteam, pctorrent, gay-torrentsorg, torrentmasters, rintor, happyfappy, opencd, portugas-api, kickasstorrents-to, yourbittorrent, chdbits, byrbt, aither-api, aidoruonline, oshenpt, isohunt2, theshow, torrentkitty, greekdiamond, btmet, ihdbits, scenerush, miobt, les-cinephiles, nyaasi, torrentlt, cpasbien, cartoonchaos, divteam, borgzelle, p2pbg, 2fast4you, crnaberza, tornado, dmhy, showrss, empornium, arenabg, sosulki, madsrevolution, bitbazis, btetree, hdatmos, cpasbiensi, audionews, hdchina, finelite, acidlounge, thevault, hdarea, teamhd, bithumen, thedarkcommunity, sktorrent-org, file-tracker, aussierules, turktorrent, glodls, nipponsei, fuzer, teamctgame, r3vwtf, animetracker, chilebt, fluxzone, uhdbits, comicat, rus-media, torrent-turk, aftershock, tokyotosho, funkytorrents, concen, animeworld-api, world-of-tomorrow, discfan, crazyspirits, snowpt, tjupt, sporthd, totheglorycookie, noname-club, pthome, crazyhd, audiences, solidtorrents, sdbits, 1ptbar, torrentgalaxy, speedtorrentreloaded, majomparade, digitalcore, beyond-hd, hdmayi, peersfm, 2xfree, idope, sharkpt, torrentsir, blutopia-api, girotorrent, femdomcult, unleashthecartoons, mma-torrents, 1337x, racingforme, cinematik, slosoul, mesevilag, xwtclassics, turkseed, thegeeks, superbits, magicheaven, ptchina, linuxtracker, pornleech, eztv, magico, datatalli, bt4g, lesaloon, ilcorsaroblu, bwtorrents, marinetracker, hdforever, rudub, brsociety-api, skipthecommercials-api, torrentoyunindir, ourbits, pttime, xiteme, muziekfabriek, fantastiko, mixtapetorrent, houseofdevil, hellashut, potuk, pornbay, gay-torrents, limetorrents, booktracker, nethd, hddolby, firebit, boxingtorrents, danishbytes-api, torrent-pirat, diablotorrent, theplace, thenewfun, tapochek, huntorrent, abnormal, pornotorrent, kickasstorrents-ws, amigosshare, torrentfunk, torrentland, haitang, hdmonkey, sukebeinyaasi, traht, empornium2fa, theoldschool-api, newstudio, uniondht, korsar, yggcookie, torrentcore, frozenlayer, lemonhd, rutracker-ru, mypornclub, gktorrent, newretro, asiandvdclub, internetarchive, pterclub, theempire, icc2022, hdu, deildu, xthor-api, bootytape, animelayer, trancetraffic, rintornet, hdhome, torrentseeds-api, trezzor, classix, mactorrentsdownload, rustorka, theleachzone, concertos, sktorrent, mousebits, extremebits, ilcorsaronero, seedfile, wihd, redstartorrent, docspedia, generationfree-api, speedmasterhd, kinorun, immortuos, locadora, eniahd, mvgroupmain, unlimitz, fenyarnyek-tracker, totheglory, btdigg, torrenthr, bigfangroup, bitded, arabp2p, megamixtracker, hdturk, anime-free, acgsou, crt2fa, sportscult, catorrent, polishtracker-api, krazyzone, mojblink, tekno3d, learnflakes, twilight, losslessclub, crackingpatching, arabafenice, vsttorrents, nicept, xxxtorrents, btnext, theshinning-api, leech24, puurhollands, anthelion-api, Bittorrentfiles, dxp, freshmeat, extremetorrents, torrentqq, lastfiles, xxxadulttorrent, hdolimpo-api, ebookbay, noname-clubl, torrentleech-pl, exkinoray, torrenting, ptsbao, demonoid, limetorrentsclone, rutor, torrent911, coastalcrew, newstudiol, megapeer, torrentdownloads, mikan, devil-torrents, gtorrentpro, bestcore, ebooks-shares, tvroad, hdcztorrent, torrentz2eu, ydypt, torrent-explosiv, itorrent, bitofvalor, anisource, pixelcove2fa, vtorrent, torrentv, bluebirdhd, pornoslab, rptorrents, fantasticheaven, redbits-api, filelisting, swarmazon-api, cinemageddon, 4thd, hdtime, nntt, acgrip, parnuxi, beitai, esharenet, racing4everyone-api, piratbitl, haidan, xbytesv2, teamos, themixingbowl, byrutor, torrent9clone, torlock, shareisland-api, ftuapps, jptv, bitturk, onejav, mazepa, tmghub, keepfriends, pornforall, extratorrent-st, thefallingangels, 52pt, backups, pwtorrents, proporno, badasstorrents, sharewood, uniongang, insanetracker, pixelcove, torrentleech, moviesite, xxxtor, carpathians, movietorrentz, bulltorrent, jpopsuki, torrentby, desitorrents-api, woot, gaytorrentru, seedoff, siambit, 0magnet, ehentai, moviesdvdr, fanoin, hebits, ptfiles, satclubbing, genesismovement, exttorrents, tribalmixes, thesceneplace, gainbound, bithorlo, shanaproject, zomb, broadcity, hawke-uno, anilibria, knaben, kufirc, estone, bangumi-moe, dimeadozen, asiancinema, hdtorrentsit, spidertk, vsthouse, torrentbd, carphunter, lst, tlfbits, myspleen, mnv, yts, springsunday, greekteam, lepornoinfo, torrentslocal, 3changtrai, tasmanit, riperam, ptmsg, bitsexy, dreamtracker, tellytorrent-api, hhanclub, ceskeforum, romanianmetaltorrents, torrentview, oldtoonsworld, pignetwork, xtremebytes, ztracker, zmpt, rgfootball, bibliotik, sexypics, polishsource, bitnova, linkomanija, electro-torrent, joyhd, piratbit, zetorrents, lat-team-api, abtorrents, hdfans, spiritofrevolution, zamundanet, bitru, torrentsectorcrew, zelkaorg, hdsky, xtorrenty, gigatorrents, aniRena, trupornolabs, sugoimusic, thepiratebay, proaudiotorrents, resurrectthenet, gamestorrents, karagarga, hdzone, hdgalaktik, legittorrents, punkshorror, jav-torrent, xwtorrents, pier720, mteamtp, u2, carpt, totallykids, hqmusic, dariustracker, extremlymtorrents, teracod, milkie, tvchaosuk 
+2023-02-17 11:17:39.5221 Info Loaded 570 indexers in total 
+2023-02-17 11:17:39.5322 Info Adding aggregate indexer ('all' indexer) ... 
+2023-02-17 11:17:39.5428 Info Adding filter indexer ('type:public' indexer) ... 
+2023-02-17 11:17:39.5486 Info Adding filter indexer ('type:private' indexer) ... 
+2023-02-17 11:17:39.5486 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-02-17 11:17:39.6934 Info Jackett startup finished in 5.221 s 
+2023-02-17 11:21:39.9868 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 11:21:39.9868 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 11:21:41.7640 Info Torznab search in MejorTorrent for Kill Bill: Vol. 2 2004 => Found 2 releases 
+2023-02-17 11:21:42.1972 Info Torznab search in The Pirate Bay for Kill Bill Vol 2 2004 => Found 58 releases 
+2023-02-17 11:31:58.1248 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 11:31:58.1318 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 11:31:59.7442 Info Torznab search in MejorTorrent for Godzilla vs. Kong 2021 => Found 2 releases 
+2023-02-17 11:32:00.2939 Info Torznab search in The Pirate Bay for Godzilla vs Kong 2021 => Found 65 releases 
+2023-02-17 11:33:07.7838 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 11:33:07.7838 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 11:33:07.7908 Info Torznab search in The Pirate Bay for Godzilla vs Kong 2021 => Found 65 releases (from cache) 
+2023-02-17 11:33:08.7487 Info Torznab search in MejorTorrent for Godzilla vs. Kong 2021 => Found 2 releases 
+2023-02-17 11:35:40.2134 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 11:35:40.2258 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 11:35:40.2652 Info Torznab search in The Pirate Bay for Godzilla vs Kong 2021 => Found 65 releases (from cache) 
+2023-02-17 11:35:41.9179 Info Torznab search in MejorTorrent for Godzilla vs. Kong 2021 => Found 2 releases 
+2023-02-17 11:36:08.7980 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 11:36:08.7980 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 11:36:08.8122 Info Torznab search in The Pirate Bay for Godzilla vs Kong 2021 => Found 65 releases (from cache) 
+2023-02-17 11:36:09.9592 Info Torznab search in MejorTorrent for Godzilla vs. Kong 2021 => Found 2 releases 
+2023-02-17 11:44:00.0292 Error Error on 20230217114400 for DonTorrent.txtSystem.Net.Http.HttpRequestException: Name does not resolve (dontorrent.chat:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): Name does not resolve
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 219
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.DonTorrent.ParseSeriesRelease(ICollection`1 releases, String link, TorznabQuery query, String title, String quality) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/DonTorrent.cs:line 393
+   at Jackett.Common.Indexers.DonTorrent.ParseRelease(ICollection`1 releases, String link, String title, String category, String quality, TorznabQuery query, Boolean matchWords) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/DonTorrent.cs:line 360
+   at Jackett.Common.Indexers.DonTorrent.PerformQueryNewest(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/DonTorrent.cs:line 242
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="es" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="description" content="Ultimos Estrenos en Películas, Series, Documentales para descargar con uTorrent." />
+    <link rel="icon" href="/assets/DonFav.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/assets/images/touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/touch-icon-ipad-retina.png" />
+    <link href="https://dontorrent.chat/ultimos" rel="canonical" />
+    <link href="https://dontorrent.chat/" rel="home" />
+    <title>Estrenos Torrents - DonTorrent</title>
+    	<meta name="DC.Title" content="Estrenos Torrents - DonTorrent" />
+	<meta name="Author" content="DonTorrent" />
+	<meta name="Subject" content="Peliculas, Series, Documentales, Musica, Juegos, Torrents" />
+	
+	<meta name="Robots" content="index, follow, all" />
+    <meta name="revisit" content="1 days" />
+	<meta name="Distribution" content="Global" />    
+    <meta name="googlebot" content="index, follow, all" />
+    <meta property="og:locale" content="es_ES" />
+      <meta property="og:type" content="Website"/>
+      <meta property="og:title" content="Estrenos Torrents"/>
+      <meta property="og:description" content="Ultimos Estrenos en Películas, Series, Documentales para descargar con uTorrent."/>
+      <meta property="og:url" content="https://dontorrent.chat/ultimos"/>
+      <meta property="og:site_name" content="DonTorrent - Descargar peliculas y series torrent"/>
+      <meta property="og:image" content="https://dontorrent.com/assets/images/imagen_logo.png"/>
+      <meta property="og:image:secure_url" content="https://dontorrent.com/assets/images/imagen_logo.png" />
+      <meta property="og:image:type" content="image/jpeg"/>
+      <meta property="og:image:width" content="120"/>
+      <meta property="og:image:height" content="165" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content="Estrenos Torrents - DonTorrent" />
+      <meta name="twitter:description" content="Ultimos Estrenos en Películas, Series, Documentales para descargar con uTorrent."/>
+      <meta name="twitter:image" content="https://dontorrent.com/assets/images/imagen_logo.png" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "DonTorrent",
+  "url": "https://dontorrent.chat/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://dontorrent.chat/buscar/{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177291406-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177291406-1');
+</script>
+
+<!--Usando una CDN gratuita -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/don_main.css?es1337">
+    <link rel='stylesheet' id='bfa-font-awesome-css' href='https://use.fontawesome.com/releases/v5.15.3/css/all.css?ver=2.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='bfa-font-awesome-v4-shim-css' href='https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css?ver=2.0.1' type='text/css' media='all' />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i" rel="stylesheet" rel="preload">
+<style>#disqus_thread:after {content: "";display: block;height: 55px;width: 100%;position: absolute;bottom: 0;background: #2f3136!important}</style></head>
+    <body class="dark" itemscope itemtype="http://schema.org/WebPage" data-lang="es">
+
+<link rel="stylesheet" href="/assets/css/telegram_don.css">
+
+    <link rel="stylesheet" href="/assets/css/telegram_don_night.css?v2">
+
+<script type="text/javascript">
+  function CheckCookie(telegram){
+   if (cookie(telegram)){
+    document.getElementById(telegram).style.display='none';
+   }
+  }
+  function setcookie(telegram,days){
+   document.cookie=telegram+'=true;expires='+(new Date(new Date().getTime()+days*19728000000) .toGMTString())+';path=/';
+   document.getElementById(telegram).style.display='none';}
+  function cookie(telegram){
+   var re=new RegExp(telegram+'[^;]+','i');
+   if (document.cookie.match(re)){
+    return document.cookie.match(re)[0].split("=")[1];
+   }
+   return null;
+  }
+
+function showIt2(){document.getElementById("DonTelegram").style.display = "block";}
+setTimeout("showIt2()", 100);
+</script>
+
+<div id="DonTelegram">
+<div class="telegram" onclick="setcookie('telegram',1)" id="telegram">
+<div class="tele_ox">
+<center><a  target="_blank" href="https://t.me/DonTorrent"><img class="imggggg" src="https://i.imgur.com/K1VRJXa.png" alt="Telegram DonTorrent" /></a></center>
+<div class="headl_te"><p><img src="/assets/images/dibujodon.svg" style="height: 19px;margin-bottom: 4px;">DonTorrent Telegram</p></div>
+<div class="sub_fsdr">Estate atento al dominio oficial de DonTorrent evitando la censura.
+  </div>
+<div style="text-align: center; ">
+  <a  target="_blank" href="https://t.me/DonTorrent">
+    <button class="btn_joinn" style="color: #fff;border: none; margin: 10px 0 0; font-size: 20px; padding: 10px 0px; border-radius: 20px; width: 100%; background: #2196F3;">
+      Telegram<b> </b><i class="fa fa-telegram" style="font-size:20px;"></i></button></a>
+
+  <i id='Close_fa' class="fa fa-times" aria-hidden="true" onclick="setcookie('telegram',1)" title='Ocultar Mensaje'></i>
+</div>
+
+
+
+</div></div>
+
+<script type="text/javascript"> CheckCookie('telegram');</script>
+
+</div>
+
+    <div class="toast" style="position: fixed; top: 100px; left: 10px; z-index: 9999;">
+        <div class="toast-header">
+          <b class="mr-auto">Contraseña Copiada!</b>
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+    </div>
+    <div class="header">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark shadow">
+        <form id="nightMode" method="post">
+            <a id="nightModeBut" class="nightMode">
+                <span></span>
+            </a>
+                            <input type="hidden" name="mode" value="light">
+                    </form>
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/DonTorrent.svg" width="190" alt="DonTorrent"><img src="/assets/images/DonESP.svg" width="33" alt="Capitan DonTorrent">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                    <li class="nav-item">
+                        <a class="nav-link" href="/"><span class="navbar-icon"><i class="fa fa-home"></i></span>INICIO</a>
+                    </li>
+                                                    <li class="nav-item">
+                        <a class="nav-link" href="/tor"><span class="navbar-icon"><i class="fa fa-shield"></i></span>TOR</a>
+                    </li>
+                                                     <li class="nav-item">
+                        <a class="nav-link" href="https://dontorrent.blog/"><span class="navbar-icon"><i class="fa fa-rss"></i></span>BLOG</a>
+                    </li>
+                                                    <li class="nav-item">
+                        <a class="nav-link" href="/ayuda"><span class="navbar-icon"><i class="fa fa-question-circle"></i></span>AYUDA</a>
+                    </li>
+                                                    <li class="nav-item">
+                        <a class="nav-link" href="/contacto"><span class="navbar-icon"><i class="fa fa-address-card"></i></span>CONTACTO</a>
+                    </li>
+                                                    <li class="nav-item active">
+                        <a class="nav-link" href="/ultimos"><span class="navbar-icon"><i class="fa fa-free-code-camp"></i></span>ESTRENOS</a>
+                    </li>
+                            </ul>
+            <form action="/" class="form-inline my-2 my-lg-0" id="search">
+                <input type="hidden" name="sec" value="buscador">
+                <input class="form-control mr-sm-2" type="text" placeholder="B&uacute;squeda de torrents..." minlength=2 name="valor" id="query">
+                <input class="btn btn-outline-light my-2 my-sm-0" type="submit" name="Buscar" value="Buscar">
+            </form>
+        </div>
+    </nav>
+</div>
+
+<script type="text/javascript">
+    let form = document.getElementById("search");
+    let nightMode = document.getElementById("nightMode");
+    let nightModeBut = document.getElementById("nightModeBut");
+
+    nightModeBut.addEventListener("click", () => {
+        nightMode.submit();
+    });
+
+    form.addEventListener("submit", event => {
+        let query = document.getElementById("query").value;
+
+        if (query.replace(/ /g, "").length > 0) {
+            window.location.replace("/buscar/" + query);
+        }
+
+        event.preventDefault();
+    });
+</script>
+    <div class="container">
+      <div class="row"> 
+        <div class="col-md-auto sidebar"> 
+
+		            
+<div class="list-group torrents-list shadow-sm">
+    <h2 class="list-group-item top" style="padding: .5rem;">Descargar Torrents</h2>    <a href="/descargar-peliculas" class="list-group-item list-group-item-action">Pel&iacute;culas <span class="number badge badge-primary badge-pill">21655</span></a>
+    <a href="/peliculas/4K" class="list-group-item list-group-item-action">Pel&iacute;culas 4K <span class="number badge badge-primary badge-pill">1012</span></a>
+    <a href="/descargar-peliculas/hd" class="list-group-item list-group-item-action">Pel&iacute;culas HD <span class="number badge badge-primary badge-pill">5320</span></a>
+    <a href="/descargar-series" class="list-group-item list-group-item-action">Series <span class="number badge badge-primary badge-pill">7088</span></a>
+    <span class="list-group-item sub-list list-group-item-action">Episodios <span class="number badge badge-primary badge-pill">59426</span></span>
+    <a href="/series/hd" class="list-group-item list-group-item-action">Series HD <span class="number badge badge-primary badge-pill">2865</span></a>
+    <span class="list-group-item sub-list list-group-item-action">Episodios HD <span class="number badge badge-primary badge-pill">20210</span></span>
+    <a href="/documentales" class="list-group-item list-group-item-action">Documentales <span class="number badge badge-primary badge-pill">1271</span></a>
+    <a href="/musica" class="list-group-item list-group-item-action">M&uacute;sica<span class="number badge badge-primary badge-pill">7951</span></a>
+    <a href="/juegos" class="list-group-item list-group-item-action">Juegos <span class="number badge badge-primary badge-pill">4147</span></a>
+    <a href="/juegos/PC" class="list-group-item sub-list list-group-item-action">PC <span class="number badge badge-primary badge-pill">2904</span></a>
+    <a href="/variados" class="list-group-item list-group-item-action">Variados <span class="number badge badge-primary badge-pill">2367</span></a>
+<div class="list-group-item top" style="font-size: 10.7px;color: #000;margin-bottom: 0;background: #0944b6!important;border-color: #0944b6!important;"><i class="fa fa-bitcoin" style="color: #ffc04d;font-size: 12px;"></i> 1DonDMCAietxZ4QEhtKLXhr28miBqBprNw<i class="fa fa-heart" style="color: red;font-size: 12px;margin-left: 3px;"></i></div></div>
+            <div class="col-md-auto"></div></div>
+        <div class="col-md">
+                                                <div class="seccion" id="ultimos_torrents">
+    <div class="card shadow-sm p-2">
+        <div class="card-body">
+            <h1 class="display-5">Estrenos Torrents</h1>
+            <p>🔥Aquí encontrarás los últimos Torrents agregados en los últimos días 🔥<br> El contenido más actualizado categorizado por Películas, Series, Documentales, Música, Juegos y mucho más.</p>
+            <hr class="my-4">
+
+            <div style='padding:10px;'><div class="h5 text-dark">PELÍCULAS:</div><span class="text-muted">2023-02-16</span> <a href='pelicula/26121/En-los-mrgenes' class="text-primary">En los márgenes</a> <span class="text-muted">(BluRay-1080p)</span><br><span class="text-muted">2023-02-16</span> <a href='pelicula/26120/La-cena-perfecta' class="text-primary">La cena perfecta</a> <span class="text-muted">(BluRay-1080p)</span><br><span class="text-muted">2023-02-16</span> <a href='pelicula/26119/Cerdita' class="text-primary">Cerdita</a> <span class="text-muted">(BDremux-1080p)</span><br><span class="text-muted">2023-02-15</span> <a href='pelicula/26118/El-atracador-perfecto' class="text-primary">El atracador perfecto</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-15</span> <a href='pelicula/26117/Emboscada' class="text-primary">Emboscada</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-15</span> <a href='pelicula/26116/Querido-David' class="text-primary">Querido David</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-14</span> <a href='pelicula/26115/Amor-al-cuadrado-otra-vez' class="text-primary">Amor al cuadrado otra vez</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-14</span> <a href='pelicula/26114/Un-ao-una-noche' class="text-primary">Un año, una noche</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-14</span> <a href='pelicula/26113/Una-leccion-criminal' class="text-primary">Una leccion criminal</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-13</span> <a href='pelicula/26112/Tu-casa-o-la-mia' class="text-primary">Tu casa o la mia</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-13</span> <a href='pelicula/26111/Somebody-I-Used-to-Know' class="text-primary">Somebody I Used to Know</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-13</span> <a href='pelicula/26110/Modelo-77' class="text-primary">Modelo 77</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-12</span> <a href='pelicula/26109/En-el-lugar-equivocado' class="text-primary">En el lugar equivocado</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-12</span> <a href='pelicula/26108/Diabolik' class="text-primary">Diabolik</a> <span class="text-muted">(DVDRip)</span><br><span class="text-muted">2023-02-12</span> <a href='pelicula/26107/El-grito-silencioso-El-caso-Roe-v-Wade' class="text-primary">El grito silencioso El caso Roe v. Wade</a> <span class="text-muted">(DVDRip)</span><br><br><div class="h5 text-dark">SERIES:</div><span class="text-muted">2023-02-16</span> <a href='serie/97065/97068/Farzi-1-Temporada-720p' class="text-primary">Farzi - 1ª Temporada [720p]: 1x05</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97066/97067/Farzi-1-Temporada' class="text-primary">Farzi - 1ª Temporada: 1x05</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97017/97058/Operacin-Marea-Negra-2-Temporada-720p' class="text-primary">Operación Marea Negra - 2ª Temporada [720p]: 2x05</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97018/97019/Operacin-Marea-Negra-2-Temporada' class="text-primary">Operación Marea Negra - 2ª Temporada: 2x05</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97113/97116/El-Amor-Da-Mucha-Guerra-1-Temporada-720p' class="text-primary">El Amor Da Mucha Guerra - 1ª Temporada [720p]: 1x04</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97114/97115/El-Amor-Da-Mucha-Guerra-1-Temporada' class="text-primary">El Amor Da Mucha Guerra - 1ª Temporada: 1x04</a><br><span class="text-muted">2023-02-16</span> <a href='serie/94355/94358/Abbott-Elementary-2-Temporada-720p' class="text-primary">Abbott Elementary - 2ª Temporada [720p]: 2x05</a><br><span class="text-muted">2023-02-16</span> <a href='serie/94356/94357/Abbott-Elementary-2-Temporada' class="text-primary">Abbott Elementary - 2ª Temporada: 2x05</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97168/97171/Los-misterios-de-Praga-1-Temporada-720p' class="text-primary">Los misterios de Praga - 1ª Temporada [720p]: 1x02</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97169/97170/Los-misterios-de-Praga-1-Temporada' class="text-primary">Los misterios de Praga - 1ª Temporada: 1x02</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97162/97165/The-Curse-1-Temporada-720p' class="text-primary">The Curse - 1ª Temporada [720p]: 1x02</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97163/97164/The-Curse-1-Temporada' class="text-primary">The Curse - 1ª Temporada: 1x02</a><br><span class="text-muted">2023-02-16</span> <a href='serie/95940/95943/Blood-and-Treasure-1-Temporada-720p' class="text-primary">Blood and Treasure - 1ª Temporada [720p]: 1x12</a><br><span class="text-muted">2023-02-16</span> <a href='serie/95941/95942/Blood-and-Treasure-1-Temporada' class="text-primary">Blood and Treasure - 1ª Temporada: 1x12</a><br><span class="text-muted">2023-02-16</span> <a href='serie/93538/93541/El-Bocazas-1-Temporada-720p' class="text-primary">El Bocazas - 1ª Temporada [720p]: 1x08</a><br><span class="text-muted">2023-02-16</span> <a href='serie/93539/93540/El-Bocazas-1-Temporada' class="text-primary">El Bocazas - 1ª Temporada: 1x08</a><br><span class="text-muted">2023-02-16</span> <a href='serie/96130/96133/El-joven-Sheldon-6-Temporada-720p' class="text-primary">El joven Sheldon - 6ª Temporada [720p]: 6x06</a><br><span class="text-muted">2023-02-16</span> <a href='serie/96131/96132/El-joven-Sheldon-6-Temporada' class="text-primary">El joven Sheldon - 6ª Temporada: 6x06</a><br><span class="text-muted">2023-02-16</span> <a href='serie/96875/96878/Fleishman-esta-en-apuros-1-Temporada-720p' class="text-primary">Fleishman esta en apuros - 1ª Temporada [720p]: 1x06</a><br><span class="text-muted">2023-02-16</span> <a href='serie/96876/96877/Fleishman-esta-en-apuros-1-Temporada' class="text-primary">Fleishman esta en apuros - 1ª Temporada: 1x06</a><br><span class="text-muted">2023-02-16</span> <a href='serie/92745/92748/The-Good-Doctor-6-Temporada-720p' class="text-primary">The Good Doctor - 6ª Temporada [720p]: 6x12</a><br><span class="text-muted">2023-02-16</span> <a href='serie/92746/92747/The-Good-Doctor-6-Temporada' class="text-primary">The Good Doctor - 6ª Temporada: 6x12</a><br><span class="text-muted">2023-02-16</span> <a href='serie/96026/96029/Transplant-3-Temporada-720p' class="text-primary">Transplant - 3ª Temporada [720p]: 3x06</a><br><span class="text-muted">2023-02-16</span> <a href='serie/96027/96028/Transplant-3-Temporada' class="text-primary">Transplant - 3ª Temporada: 3x06</a><br><span class="text-muted">2023-02-16</span> <a href='serie/95830/95833/Star-Wars-La-remesa-mala-2-Temporada-720p' class="text-primary">Star Wars: La remesa mala - 2ª Temporada [720p]: 2x08</a><br><span class="text-muted">2023-02-16</span> <a href='serie/95831/95832/Star-Wars-La-remesa-mala-2-Temporada' class="text-primary">Star Wars: La remesa mala - 2ª Temporada: 2x08</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97195/97198/La-chica-invisible-1-Temporada-720p' class="text-primary">La chica invisible - 1ª Temporada [720p]: 1x01</a><br><span class="text-muted">2023-02-16</span> <a href='serie/97196/97197/La-chica-invisible-1-Temporada' class="text-primary">La chica invisible - 1ª Temporada: 1x01</a><br><span class="text-muted">2023-02-16</span> <a href='serie/95618/95621/La-gloria-1-Temporada-720p' class="text-primary">La gloria - 1ª Temporada [720p]: 1x08</a><br><span class="text-muted">2023-02-16</span> <a href='serie/95619/95620/La-gloria-1-Temporada' class="text-primary">La gloria - 1ª Temporada: 1x08</a><br><span class="text-muted">2023-02-16</span> <a href='serie/92079/92082/The-Good-Fight-6-Temporada-720p' class="text-primary">The Good Fight - 6ª Temporada [720p]: 6x10</a><br><span class="text-muted">2023-02-16</span> <a href='serie/96436/97191/The-Lazarus-Project-1-Temporada-720p' class="text-primary">The Lazarus Project - 1ª Temporada [720p]: 1x01</a><br><span class="text-muted">2023-02-16</span> <a href='serie/96437/97190/The-Lazarus-Project-1-Temporada' class="text-primary">The Lazarus Project - 1ª Temporada: 1x01</a><br><span class="text-muted">2023-02-15</span> <a href='serie/95688/95691/Alice-in-Borderland-2-Temporada-720p' class="text-primary">Alice in Borderland - 2ª Temporada [720p]: 2x07</a><br><span class="text-muted">2023-02-15</span> <a href='serie/95689/95690/Alice-in-Borderland-2-Temporada' class="text-primary">Alice in Borderland - 2ª Temporada: 2x07</a><br><span class="text-muted">2023-02-15</span> <a href='serie/96951/96954/Parentesco-1-Temporada-720p' class="text-primary">Parentesco - 1ª Temporada [720p]: 1x06</a><br><span class="text-muted">2023-02-15</span> <a href='serie/96952/96953/Parentesco-1-Temporada' class="text-primary">Parentesco - 1ª Temporada: 1x06</a><br><span class="text-muted">2023-02-15</span> <a href='serie/97065/97068/Farzi-1-Temporada-720p' class="text-primary">Farzi - 1ª Temporada [720p]: 1x04</a><br><span class="text-muted">2023-02-15</span> <a href='serie/97066/97067/Farzi-1-Temporada' class="text-primary">Farzi - 1ª Temporada: 1x04</a><br><span class="text-muted">2023-02-15</span> <a href='serie/97113/97116/El-Amor-Da-Mucha-Guerra-1-Temporada-720p' class="text-primary">El Amor Da Mucha Guerra - 1ª Temporada [720p]: 1x03</a><br><span class="text-muted">2023-02-15</span> <a href='serie/97114/97115/El-Amor-Da-Mucha-Guerra-1-Temporada' class="text-primary">El Amor Da Mucha Guerra - 1ª Temporada: 1x03</a><br><span class="text-muted">2023-02-15</span> <a href='serie/93538/93541/El-Bocazas-1-Temporada-720p' class="text-primary">El Bocazas - 1ª Temporada [720p]: 1x07</a><br><span class="text-muted">2023-02-15</span> <a href='serie/93539/93540/El-Bocazas-1-Temporada' class="text-primary">El Bocazas - 1ª Temporada: 1x07</a><br><span class="text-muted">2023-02-15</span> <a href='serie/97133/97136/Cardo-2-Temporada-720p' class="text-primary">Cardo - 2ª Temporada [720p]: 2x02</a><br><span class="text-muted">2023-02-15</span> <a href='serie/97134/97135/Cardo-2-Temporada' class="text-primary">Cardo - 2ª Temporada: 2x02</a><br><span class="text-muted">2023-02-15</span> <a href='serie/93769/93772/Los-Simpsons-34-Temporada-720p' class="text-primary">Los Simpsons - 34ª Temporada [720p]: 34x11</a><br><span class="text-muted">2023-02-15</span> <a href='serie/93770/93771/Los-Simpsons-34-Temporada' class="text-primary">Los Simpsons - 34ª Temporada: 34x11</a><br><span class="text-muted">2023-02-15</span> <a href='serie/96879/96882/El-dilema-1-Temporada-720p' class="text-primary">El dilema - 1ª Temporada [720p]: 1x06</a><br><br><div class="h5 text-dark">DOCUMENTALES:</div><span class="text-muted">2022-06-09</span> <a href='documental/2672/2673/Drag-Race-Espaa' class="text-primary">Drag Race España: 2x01</a><br><span class="text-muted">2022-06-09</span> <a href='documental/4278/4279/Happy-Jail' class="text-primary">Happy Jail: 1x01</a><br><span class="text-muted">2022-06-09</span> <a href='documental/4276/4277/Senzo-El-asesinato-de-una-estrella-del-ftbol' class="text-primary">Senzo: El asesinato de una estrella del fútbol: 1x01</a><br><span class="text-muted">2022-03-28</span> <a href='documental/4274/4275/800-metros' class="text-primary">800 metros: 1x01 al 1x03</a><br><span class="text-muted">2022-03-28</span> <a href='documental/4263/4264/Frmula-1-La-emocin-de-un-Grand-Prix' class="text-primary">Fórmula 1: La emoción de un Grand Prix: 4x01</a><br><span class="text-muted">2022-03-28</span> <a href='documental/4261/4262/Operacin-Marea-Negra-La-travesia-suicida' class="text-primary">Operación Marea Negra: La travesia suicida: 1x03</a><br><span class="text-muted">2022-03-22</span> <a href='documental/4261/4262/Operacin-Marea-Negra-La-travesia-suicida' class="text-primary">Operación Marea Negra: La travesia suicida: 1x02</a><br><span class="text-muted">2022-03-22</span> <a href='documental/4263/4264/Frmula-1-La-emocin-de-un-Grand-Prix' class="text-primary">Fórmula 1: La emoción de un Grand Prix: 3x01 al 3x10</a><br><span class="text-muted">2022-03-22</span> <a href='documental/4267/4268/Los-diarios-de-Andy-Warhol' class="text-primary">Los diarios de Andy Warhol: 1x04 al 1x06</a><br><span class="text-muted">2022-03-15</span> <a href='documental/4267/4268/Los-diarios-de-Andy-Warhol' class="text-primary">Los diarios de Andy Warhol: 1x01 al 1x03</a><br><span class="text-muted">2022-03-15</span> <a href='documental/4263/4264/Frmula-1-La-emocin-de-un-Grand-Prix' class="text-primary">Fórmula 1: La emoción de un Grand Prix: 2x09 & 2x10</a><br><span class="text-muted">2022-03-15</span> <a href='documental/4263/4264/Frmula-1-La-emocin-de-un-Grand-Prix' class="text-primary">Fórmula 1: La emoción de un Grand Prix: 2x05 al 2x08</a><br><span class="text-muted">2022-03-15</span> <a href='documental/4263/4264/Frmula-1-La-emocin-de-un-Grand-Prix' class="text-primary">Fórmula 1: La emoción de un Grand Prix: 2x01 al 2x04</a><br><span class="text-muted">2022-03-15</span> <a href='documental/4261/4262/Operacin-Marea-Negra-La-travesia-suicida' class="text-primary">Operación Marea Negra: La travesia suicida: 1x01</a><br><br><div class="h5 text-dark">MÚSICA:</div><span class="text-muted">2020-12-16</span> <a href='musica/8114/Elton-John-Jewel-Box-8CD-Super-Deluxe-Edition-' class="text-primary">Elton John - Jewel Box [8CD Super Deluxe Edition] </a><br><span class="text-muted">2020-12-16</span> <a href='musica/8113/Eric-Clapton-Eric-Claptons-Crossroads-Guitar-Festival-2019' class="text-primary">Eric Clapton - Eric Claptons Crossroads Guitar Festival 2019</a><br><span class="text-muted">2020-12-16</span> <a href='musica/8112/The-Who-Whos-next-' class="text-primary">The Who - Whos next </a><br><span class="text-muted">2020-12-07</span> <a href='musica/8111/Lil-Wayne-No-Ceilings-3' class="text-primary">Lil Wayne - No Ceilings 3</a><br><span class="text-muted">2020-12-07</span> <a href='musica/8110/Miley-Cyrus-Plastic-Hearts' class="text-primary">Miley Cyrus - Plastic Hearts</a><br><span class="text-muted">2020-12-07</span> <a href='musica/8109/Neil-Diamond-Classic-Diamonds-With-The-London-Symphony-Orchestra' class="text-primary">Neil Diamond - Classic Diamonds With The London Symphony Orchestra</a><br><span class="text-muted">2020-12-07</span> <a href='musica/8108/Shaggy-Christmas-in-the-islands' class="text-primary">Shaggy - Christmas in the islands</a><br><span class="text-muted">2020-12-07</span> <a href='musica/8107/Bush-8206The-Kingdom-Deluxe-Edition' class="text-primary">Bush - &#8206;The Kingdom (Deluxe Edition)</a><br><span class="text-muted">2020-12-07</span> <a href='musica/8106/Whitesnake-Love-Songs' class="text-primary">Whitesnake - Love Songs</a><br><span class="text-muted">2020-11-30</span> <a href='musica/8105/50-Timeless-Christmas-Hits' class="text-primary">50 Timeless Christmas Hits</a><br><span class="text-muted">2020-11-30</span> <a href='musica/8104/The-Cure-Discografa-De-Estudio' class="text-primary">The Cure - Discografía De Estudio</a><br><span class="text-muted">2020-11-30</span> <a href='musica/8103/Dj-Tiesto-Discografa-De-Estudio' class="text-primary">Dj Tiesto - Discografía De Estudio</a><br><span class="text-muted">2020-11-30</span> <a href='musica/8102/Thin-Lizzy-Discografa' class="text-primary">Thin Lizzy - Discografía</a><br><span class="text-muted">2020-11-20</span> <a href='musica/8101/Carlos-Santana-Discografa-1969-2005' class="text-primary">Carlos Santana - Discografía (1969-2005)</a><br><span class="text-muted">2020-11-20</span> <a href='musica/8100/Julio-Iglesias-Discografa-1969-2015' class="text-primary">Julio Iglesias - Discografía (1969-2015)</a><br><br><div class="h5 text-dark">JUEGOS:</div><span class="text-muted">2018-08-13</span> <a href='/juego/4165/No-More-Heroes-2-Desperate-Struggle' class="text-primary">WII: No More Heroes 2 Desperate Struggle</a><br><span class="text-muted">2018-08-13</span> <a href='/juego/4164/This-War-of-Mine-The-Little-Ones' class="text-primary">PC: This War of Mine The Little Ones</a><br><span class="text-muted">2018-08-13</span> <a href='/juego/4163/Metal-Slug-3' class="text-primary">PC: Metal Slug 3</a><br><span class="text-muted">2018-08-12</span> <a href='/juego/4162/Yu-Gi-Oh-GX-Tag-Force-3' class="text-primary">PSP: Yu Gi Oh GX Tag Force 3</a><br><span class="text-muted">2018-08-12</span> <a href='/juego/4161/Revolution-Under-Siege-Gold-Edition' class="text-primary">PC: Revolution Under Siege Gold Edition</a><br><span class="text-muted">2018-08-12</span> <a href='/juego/4160/Crypt-of-the-NecroDancer-Ultimate-Pack-' class="text-primary">PC: Crypt of the NecroDancer Ultimate Pack </a><br><span class="text-muted">2018-08-11</span> <a href='/juego/4159/Operator-Search-and-Rescue' class="text-primary">PC: Operator Search and Rescue</a><br><span class="text-muted">2018-08-11</span> <a href='/juego/4158/Castlevania-Lords-Of-Shadow-Mirror-Of-Fate-HD-' class="text-primary">PC: Castlevania Lords Of Shadow Mirror Of Fate HD </a><br><span class="text-muted">2018-08-11</span> <a href='/juego/4157/Dungeon-Siege-III-Collection' class="text-primary">PC: Dungeon Siege III Collection</a><br><span class="text-muted">2018-08-10</span> <a href='/juego/4156/Assassins-Creeds-3-DLC' class="text-primary">XBOX360: Assassins Creeds 3 DLC</a><br><span class="text-muted">2018-08-10</span> <a href='/juego/4155/Spec-Ops-The-Line' class="text-primary">PC: Spec Ops The Line</a><br><span class="text-muted">2018-08-10</span> <a href='/juego/4154/DiRT-Rally-v11' class="text-primary">PC: DiRT Rally v1.1</a><br><span class="text-muted">2018-08-09</span> <a href='/juego/4153/Dracula-4-The-Shadow-Of-The-Dragon' class="text-primary">PC: Dracula 4 The Shadow Of The Dragon</a><br><span class="text-muted">2018-08-09</span> <a href='/juego/4152/Assassins-Creed-3-Tyranny-Of-King-Washington' class="text-primary">PC: Assassins Creed 3 Tyranny Of King Washington</a><br><span class="text-muted">2018-08-09</span> <a href='/juego/4151/Metal-Gear-Solid-V-Ground-Zeroes' class="text-primary">PC: Metal Gear Solid V Ground Zeroes</a><br><br><div class="h5 text-dark">VARIADOS:</div><span class="text-muted">2017-09-01</span> <a href='/variado/2375/Mayweather-Vs-McGregor' class="text-primary">Mayweather Vs McGregor.</a><br><span class="text-muted">2017-05-17</span> <a href='/variado/2374/Iggy-Pop-Post-Pop-Depression' class="text-primary">Iggy Pop - Post Pop Depression.</a><br><span class="text-muted">2017-05-17</span> <a href='/variado/2373/Deep-Purple-California-Jam' class="text-primary">Deep Purple - California Jam.</a><br><span class="text-muted">2017-05-17</span> <a href='/variado/2372/Bob-Dylan-The-30th-Anniversary-Concert-Celebration' class="text-primary">Bob Dylan - The 30th Anniversary Concert Celebration.</a><br><span class="text-muted">2017-05-10</span> <a href='/variado/2371/Asia-Symfonia-Live-In-Bulgaria' class="text-primary">Asia: Symfonia - Live In Bulgaria.</a><br><span class="text-muted">2017-05-10</span> <a href='/variado/2370/Radio-Disney-Music-Videos-RDMA-2017' class="text-primary">Radio Disney Music Videos (RDMA 2017).</a><br><span class="text-muted">2017-05-10</span> <a href='/variado/2369/Justin-Bieber-Believe' class="text-primary">Justin Bieber - Believe.</a><br><span class="text-muted">2017-05-07</span> <a href='/variado/2368/Extreme-Pornograffitti-Live-25-Metal-Meltdown' class="text-primary">Extreme - Pornograffitti Live 25 Metal Meltdown.</a><br><span class="text-muted">2017-05-07</span> <a href='/variado/2367/Arcade-Fire-Reflektor-Live-At-Earls-Court' class="text-primary">Arcade Fire - Reflektor Live At Earls Court.</a><br><span class="text-muted">2017-05-07</span> <a href='/variado/2366/Sound-Stage-Presents-Lindsey-Buckingham-With-Special-Guest-Stevie-Nicks' class="text-primary">Sound Stage Presents - Lindsey Buckingham With Special Guest Stevie Nicks.</a><br><span class="text-muted">2017-05-02</span> <a href='/variado/2365/Westernhagen-MTV-Unplugged' class="text-primary">Westernhagen - MTV Unplugged.</a><br><span class="text-muted">2017-05-02</span> <a href='/variado/2364/Ariana-Grande-FtNicki-Minaj-Side-to-Side' class="text-primary">Ariana Grande (Ft.Nicki Minaj) - Side to Side.</a><br><span class="text-muted">2017-05-02</span> <a href='/variado/2363/Beyonce-Lemonade' class="text-primary">Beyonce - Lemonade.</a><br><span class="text-muted">2017-04-30</span> <a href='/variado/2362/Lynyrd-Skynyrd-Pronounced-Leh-Nerd-Skin-Nerd-Second-Helping-Live-From-The-Florida-Theater' class="text-primary">Lynyrd Skynyrd: Pronounced Leh-Nerd Skin-Nerd & Second Helping - Live From The Florida Theater.</a><br><span class="text-muted">2017-04-30</span> <a href='/variado/2361/Alice-Cooper-Raise-The-Dead-Live-From-Wacken' class="text-primary">Alice Cooper - Raise The Dead: Live From Wacken.</a><br></div>        </div>
+    </div>
+</div>
+                                    </div>
+        <div class="col-md-auto sidebar">
+
+
+<div class="card shadow-sm .bg-white mb-3" style="max-width: 290px;margin-top: 10%;">
+<h5 class="list-group-item top" style="padding: .5rem;">Búsqueda de Películas</h5>
+<div class="card-body">
+            <form name="filtro" action="/peliculas/buscar" method="post">
+                              <div class="input-group">
+                    <select name="campo" class="custom-select" id="tipox">
+                        <option selected value="genero">G&eacute;nero</option>
+                        <option value="titulo">T&iacute;tulo</option>
+                        <option value="letra">Letra</option>
+                        <option value="tiporip">Calidad</option>
+                        <option value="anyo">Año</option>
+                        <option value="director">Director</option>
+                        <option value="actores">Actor</option>
+                    </select>
+
+                    <select name="valor3" id="letrasx" class="custom-select d-none">
+                        <option selected>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                        <option>F</option>
+                        <option>G</option>
+                        <option>H</option>
+                        <option>I</option>
+                        <option>J</option>
+                        <option>K</option>
+                        <option>L</option>
+                        <option>M</option>
+                        <option>N</option>
+                        <option>O</option>
+                        <option>P</option>
+                        <option>Q</option>
+                        <option>R</option>
+                        <option>S</option>
+                        <option>T</option>
+                        <option>U</option>
+                        <option>V</option>
+                        <option>W</option>
+                        <option>X</option>
+                        <option>Y</option>
+                        <option>Z</option>>
+                    </select>
+
+                    <input type="text" class="form-control d-none" placeholder="" name="valor" id="valorx">
+
+                    <select name='valor2' id='valor2x' class="custom-select">
+                        <option selected>Acci&oacute;n</option>
+                        <option>Animaci&oacute;n</option>
+                        <option>Aventuras</option>
+                        <option>B&eacute;lica</option>
+                        <option>Biogr&aacute;fica</option>
+                        <option>Ciencia Ficci&oacute;n</option>
+                        <option>Cine Negro</option>
+                        <option>Comedia</option>
+                        <option>Crimen</option>
+                        <option>Documental</option>
+                        <option>Drama</option>
+                        <option>Fantas&iacute;a</option>
+                        <option>Musical</option>
+                        <option>Rom&aacute;ntica</option>
+                        <option>Suspense</option>
+                        <option>Terror</option>
+                        <option>Western</option>
+                    </select>
+                    
+                    <select name='valor5' id='calidadx' class="custom-select  d-none">
+                        <option selected>DVDRip</option>
+                        <option>HDRip</option>
+                        <option>MicroHD-1080p</option>
+                        <option>MicroHD-720p</option>
+                        <option>BluRay-1080p</option>
+                        <option>BluRay-720p</option>
+                        <option>BDremux-1080p</option>
+                        <option>4K</option>
+                        <option>Screener</option>
+                        <option>VHSscreener</option>
+                        <option>VHSRip</option>
+                    </select>
+
+                    <div class="input-group-append">
+                        <input type="submit" class="btn btn-outline-primary" value="🔎">
+
+</div>
+</div>
+</div>
+</div>
+
+      
+<div style="margin-top: -3%;margin-bottom: 8px;">
+   <a href="https://staRTgaming.net/tienda/suscripcion-premium/?offer_id=343442" target="_blank" rel="nofollow"> <img class="rounded" alt="Bloqueos" style="height: 69px;width: 290px;" src="https://i.imgur.com/XcGk9cg.png"></a>
+    </div>
+
+<div class="alert alert-success" role="alert" style="background-color: #59316b;border-color: #59316b;"><center><a href="https://dontorrent.blog/guia-dontorrent-tor/" style=" text-decoration: none; color: #f6e2ff; ">Evita la censura utilizando</a> <a href="https://dontorrent.blog/guia-dontorrent-tor/" style="text-decoration: none;color: #ecc0ff;">TOR</a> <a href="https://dontorrent.blog/guia-dontorrent-tor/"><i class="fa fa-shield" style="padding-left: 0px;color: #ffbf00;"></i></a></center></div>
+
+<a class="btn_joinn" style="color: #fff;border: none;font-size: 17px;padding: 13px 52px;border-radius: 4px;width: 100%;background: #2196F3;text-decoration: none;" href="https://t.me/DonTorrent" target="_blank">Siguenos en Telegram<b> </b><i class="fa fa-telegram" style="font-size: 15px;" aria-hidden="true"></i></a>
+<div style="margin-top: 7%;"><img class="rounded" alt="Bloqueos" style="height: 69px;width: 290px;" src="/assets/images/espanita1.png"></div>
+
+<div class="well well-sm" style="text-align: center;letter-spacing: 1.1px;box-shadow: none;padding-top: 8px;"> <span class="ico_star"></span><a href="/dominios" style="color: #299fea;font-size: 13px;text-decoration: none;">Lista de Dominios Oficiales Cada Semana</a> <span class="ico_star"></span></div>
+<div class="well well-sm" style="text-align: center;letter-spacing: 1.1px;box-shadow: none;padding-top: 5px;"> 
+<a href="/aviso-legal" style="color: #299fea;font-size: 13px;text-decoration: none;">Aviso Legal y Datos Legales</a> 
+<a href="/dmca" style="color: #299fea;font-size: 13px;text-decoration: none;"> | DMCA</a>
+</div></div>
+      </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+        
+    const defaultImage = 'https://i.imgur.com/2I9bYDc.png';
+    const images = document.querySelectorAll('img');
+        for (let i = 0; i < images.length; i++) {
+          images[i].addEventListener('error', e => {
+           e.target.src = defaultImage;
+           e.onerror = null;
+           });
+    }
+
+    function post(path, params, method='post') {
+        const form = document.createElement('form');
+        form.method = method;
+        form.action = path;
+
+        for (const key in params) {
+            if (params.hasOwnProperty(key)) {
+                const hiddenField = document.createElement('input');
+                hiddenField.type = 'hidden';
+                hiddenField.name = key;
+                hiddenField.value = params[key];
+
+                form.appendChild(hiddenField);
+            }
+        }
+
+        document.body.appendChild(form);
+        form.submit();
+    }
+    
+    $(function () {
+        $('[data-toggle="popover"]').popover({
+            html: true,
+            sanitize: false
+        })
+    })
+
+
+    $("[data-toggle='popover']").on('shown.bs.popover', () => {
+        let copyBtns = document.querySelectorAll('.copyBtn');
+        copyBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                let holder = document.createElement("input");
+                holder.style.position = 'absolute';
+                holder.style.opacity = '0';
+                document.body.appendChild(holder);
+
+                holder.setAttribute("id", "holder_id");
+                document.getElementById("holder_id").value = btn.dataset.clave;
+                holder.select();
+
+                try {
+                    document.execCommand("copy");
+                    document.body.removeChild(holder);
+                    $(".toast").toast("show")
+                } catch(e) {}
+            });
+        });
+    })
+
+if (typeof tipox !== 'undefined') { let tipox = document.querySelector("#tipox");
+
+    tipox.addEventListener("change", event => {
+        switch (event.target.value) {
+            case "letra":
+                document.querySelector("#letrasx").classList.remove("d-none");
+                document.querySelector("#valor2x").classList.add("d-none");
+                document.querySelector("#calidadx").classList.add("d-none");               
+                document.querySelector("#valorx").classList.add("d-none");
+                break;
+            case "tiporip":
+                document.querySelector("#valor2x").classList.add("d-none");
+                document.querySelector("#letrasx").classList.add("d-none");
+                document.querySelector("#calidadx").classList.remove("d-none");
+                document.querySelector("#valorx").classList.add("d-none");
+                break;                    
+            case "genero":
+                document.querySelector("#valor2x").classList.remove("d-none");
+                document.querySelector("#letrasx").classList.add("d-none");
+                document.querySelector("#calidadx").classList.add("d-none");               
+                document.querySelector("#valorx").classList.add("d-none");
+                break;
+            case "titulo":
+            case "anyo":
+            case "director":
+            case "actores":
+            case "contador_total":
+            case "ultimos_dias":
+                document.querySelector("#valorx").classList.remove("d-none");
+                document.querySelector("#valor2x").classList.add("d-none");
+                document.querySelector("#calidadx").classList.add("d-none");               
+                document.querySelector("#letrasx").classList.add("d-none");
+                break;
+            default:
+                document.querySelector("#valor2x").classList.add("d-none");
+                document.querySelector("#letrasx").classList.add("d-none");
+                document.querySelector("#calidadx").classList.add("d-none");              
+                document.querySelector("#valorx").classList.add("d-none");
+
+        }
+    });}
+
+	$('#download_torrent').click(function(){
+		setTimeout(function(){
+			$('#download_torrent').hide();
+			$('.retruk').fadeIn('slow');
+		}, 1500);		
+	});
+	$('#loked').click(function(){
+		$('.mantekol').hide();
+		$(this).hide();
+		$('.mantekol').css('max-height','none');
+		$('.mantekol').fadeIn('slow');
+	});
+	$('.socia_boxen span').click(function(){
+	});
+
+
+
+</script>
+
+
+
+</html>
+ 
+2023-02-17 11:44:00.0415 Error System.Exception: Parse error System.Exception: Parse error
+ ---> System.Net.Http.HttpRequestException: Name does not resolve (dontorrent.chat:443)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): Name does not resolve
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/vsts/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 219
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.DonTorrent.ParseSeriesRelease(ICollection`1 releases, String link, TorznabQuery query, String title, String quality) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/DonTorrent.cs:line 393
+   at Jackett.Common.Indexers.DonTorrent.ParseRelease(ICollection`1 releases, String link, String title, String category, String quality, TorznabQuery query, Boolean matchWords) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/DonTorrent.cs:line 360
+   at Jackett.Common.Indexers.DonTorrent.PerformQueryNewest(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/DonTorrent.cs:line 242
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseWebIndexer.OnParseError(String results, Exception ex) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 718
+   at Jackett.Common.Indexers.DonTorrent.PerformQueryNewest(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/DonTorrent.cs:line 259
+   at Jackett.Common.Indexers.DonTorrent.PerformQuery(TorznabQuery query) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/DonTorrent.cs:line 140
+   at Jackett.Common.Indexers.DonTorrent.ApplyConfiguration(JToken configJson) in /home/vsts/work/1/s/src/Jackett.Common/Indexers/DonTorrent.cs:line 124
+   at Jackett.Server.Controllers.IndexerApiController.UpdateConfig(ConfigItem[] config) in /home/vsts/work/1/s/src/Jackett.Server/Controllers/IndexerApiController.cs:line 97
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Jackett.Server.Middleware.CustomExceptionHandler.Invoke(HttpContext httpContext) in /home/vsts/work/1/s/src/Jackett.Server/Middleware/CustomExceptionHandler.cs:line 26
+2023-02-17 12:13:04.1036 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:13:04.1036 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:13:05.2719 Info Torznab search in The Pirate Bay => Found 3 releases 
+2023-02-17 12:13:06.2258 Info Torznab search in MejorTorrent => Found 12 releases 
+2023-02-17 12:16:15.2302 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:16:15.9954 Info Torznab search in DivxTotal => Found 36 releases 
+2023-02-17 12:16:36.4991 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:16:37.7436 Info Torznab search in MoviesDVDR => Found 30 releases 
+2023-02-17 12:17:41.8824 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64 
+2023-02-17 12:17:42.1045 Info Jackett is already updated. Current version: v0.20.3150 
+2023-02-17 12:30:27.5716 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:30:27.5716 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:30:27.5716 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:30:27.5716 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:30:28.9645 Info Torznab search in DivxTotal for Godzilla vs Kong 2021 => Found 2 releases 
+2023-02-17 12:30:28.9812 Info Torznab search in MejorTorrent for Godzilla vs. Kong 2021 => Found 2 releases 
+2023-02-17 12:30:28.9979 Info Torznab search in The Pirate Bay for Godzilla vs Kong 2021 => Found 65 releases 
+2023-02-17 12:30:29.3734 Info Torznab search in MoviesDVDR for Godzilla vs Kong 2021 => Found 0 releases 
+2023-02-17 12:32:34.7673 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:32:34.7673 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:32:34.7673 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:32:34.7673 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:32:34.7673 Info Torznab search in The Pirate Bay for Godzilla vs Kong 2021 => Found 65 releases (from cache) 
+2023-02-17 12:32:34.7855 Info Torznab search in DivxTotal for Godzilla vs Kong 2021 => Found 2 releases (from cache) 
+2023-02-17 12:32:34.7855 Info Torznab search in MoviesDVDR for Godzilla vs Kong 2021 => Found 0 releases (from cache) 
+2023-02-17 12:32:35.6400 Info Torznab search in MejorTorrent for Godzilla vs. Kong 2021 => Found 2 releases 
+2023-02-17 12:37:44.0072 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:37:44.0072 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:37:44.0072 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:37:44.0072 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:37:44.0154 Info Torznab search in The Pirate Bay for Godzilla vs Kong 2021 => Found 65 releases (from cache) 
+2023-02-17 12:37:44.0154 Info Torznab search in DivxTotal for Godzilla vs Kong 2021 => Found 2 releases (from cache) 
+2023-02-17 12:37:44.0405 Info Torznab search in MoviesDVDR for Godzilla vs Kong 2021 => Found 0 releases (from cache) 
+2023-02-17 12:37:45.0836 Info Torznab search in MejorTorrent for Godzilla vs. Kong 2021 => Found 2 releases 
+2023-02-17 12:44:43.8728 Info Torznab search in DivxTotal => Found 100 releases 
+2023-02-17 12:45:06.7994 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:45:10.0410 Info Torznab search in MejorTorrent => Found 12 releases 
+2023-02-17 12:45:33.0133 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 12:45:34.3543 Info Torznab search in MoviesDVDR => Found 30 releases 
+2023-02-17 12:45:46.9143 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:45:47.9665 Info Torznab search in The Pirate Bay => Found 25 releases 
+2023-02-17 12:49:05.8916 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:49:05.8918 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:49:05.8914 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:49:05.8918 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:49:06.5121 Info Torznab search in The Pirate Bay for Kill Bill Vol 2 2004 => Found 58 releases 
+2023-02-17 12:49:07.1501 Info Torznab search in DivxTotal for Kill Bill Vol 2 2004 => Found 2 releases 
+2023-02-17 12:49:07.2101 Info Torznab search in MejorTorrent for Kill Bill: Vol. 2 2004 => Found 2 releases 
+2023-02-17 12:49:07.2812 Info Torznab search in MoviesDVDR for Kill Bill Vol 2 2004 => Found 0 releases 
+2023-02-17 12:49:07.8504 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:49:07.8504 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:49:07.8847 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:49:07.9006 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:49:08.2147 Info Torznab search in MejorTorrent for Kill Bill: Volumen 2 2004 => Found 0 releases 
+2023-02-17 12:49:08.7936 Info Torznab search in The Pirate Bay for Kill Bill Volumen 2 2004 => Found 0 releases 
+2023-02-17 12:49:08.9705 Info Torznab search in MoviesDVDR for Kill Bill Volumen 2 2004 => Found 0 releases 
+2023-02-17 12:49:09.0442 Info Torznab search in DivxTotal for Kill Bill Volumen 2 2004 => Found 0 releases 
+2023-02-17 12:49:52.0178 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:49:52.0178 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:49:52.0178 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:49:52.0178 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:49:52.0310 Info Torznab search in The Pirate Bay for Kill Bill Vol 2 2004 => Found 58 releases (from cache) 
+2023-02-17 12:49:52.0395 Info Torznab search in DivxTotal for Kill Bill Vol 2 2004 => Found 2 releases (from cache) 
+2023-02-17 12:49:52.0583 Info Torznab search in MoviesDVDR for Kill Bill Vol 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:49:52.8188 Info Torznab search in MejorTorrent for Kill Bill: Vol. 2 2004 => Found 2 releases 
+2023-02-17 12:49:54.0062 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:49:54.0062 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:49:54.0062 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:49:54.0062 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:49:54.0062 Info Torznab search in The Pirate Bay for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:49:54.0302 Info Torznab search in DivxTotal for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:49:54.0385 Info Torznab search in MoviesDVDR for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:49:54.2380 Info Torznab search in MejorTorrent for Kill Bill: Volumen 2 2004 => Found 0 releases 
+2023-02-17 12:51:08.7791 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:51:08.7791 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:51:09.6058 Info Torznab search in MejorTorrent for La casa del dragon S01E01 => Found 1 releases 
+2023-02-17 12:51:10.7631 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:51:11.4419 Info Torznab search in DivxTotal for La casa del dragon S01E01 => Found 1 releases 
+2023-02-17 12:51:11.4792 Info Torznab search in MejorTorrent for La Casa del Dragón S01E01 => Found 1 releases 
+2023-02-17 12:51:12.7637 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:51:13.0458 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E01 => Found 0 releases 
+2023-02-17 12:51:14.1428 Info Torznab search in DivxTotal for La Casa del Dragon S01E01 => Found 1 releases 
+2023-02-17 12:51:14.7643 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:51:14.9864 Info Torznab search in MejorTorrent for House of the Dragon S01E01 => Found 0 releases 
+2023-02-17 12:51:15.3491 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E01 => Found 0 releases 
+2023-02-17 12:51:17.3219 Info Torznab search in DivxTotal for House of the Dragon S01E01 => Found 0 releases 
+2023-02-17 12:51:17.4694 Info Torznab search in The Pirate Bay for La casa del dragon S01E01 => Found 0 releases 
+2023-02-17 12:51:17.4808 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:51:17.5109 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E01 => Found 0 releases 
+2023-02-17 12:51:19.4787 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:51:20.1892 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E01 => Found 0 releases 
+2023-02-17 12:51:21.4803 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:51:22.4456 Info Torznab search in The Pirate Bay for House of the Dragon S01E01 => Found 45 releases 
+2023-02-17 12:51:34.9342 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:51:34.9342 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:51:34.9342 Info Torznab search in DivxTotal for La casa del dragon S01E01 => Found 1 releases (from cache) 
+2023-02-17 12:51:34.9422 Info Torznab search in MejorTorrent for La casa del dragon S01E01 => Found 1 releases (from cache) 
+2023-02-17 12:51:34.9488 Info Torznab search in The Pirate Bay for La casa del dragon S01E01 => Found 0 releases (from cache) 
+2023-02-17 12:51:36.9337 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:51:36.9337 Info Torznab search in DivxTotal for La Casa del Dragon S01E01 => Found 1 releases (from cache) 
+2023-02-17 12:51:36.9337 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:51:36.9396 Info Torznab search in MejorTorrent for La Casa del Dragón S01E01 => Found 1 releases (from cache) 
+2023-02-17 12:51:36.9505 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E01 => Found 0 releases (from cache) 
+2023-02-17 12:51:38.9312 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E01 => Found 0 releases (from cache) 
+2023-02-17 12:51:38.9312 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:51:38.9312 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:51:38.9420 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E01 => Found 0 releases (from cache) 
+2023-02-17 12:51:38.9474 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E01 => Found 0 releases (from cache) 
+2023-02-17 12:51:40.9311 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:51:40.9311 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:51:40.9311 Info Torznab search in DivxTotal for House of the Dragon S01E01 => Found 0 releases (from cache) 
+2023-02-17 12:51:40.9374 Info Torznab search in MejorTorrent for House of the Dragon S01E01 => Found 0 releases (from cache) 
+2023-02-17 12:51:40.9374 Info Torznab search in The Pirate Bay for House of the Dragon S01E01 => Found 45 releases (from cache) 
+2023-02-17 12:52:06.2823 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:52:06.2823 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:52:06.2823 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:52:06.2823 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:52:06.2947 Info Torznab search in DivxTotal for Kill Bill Vol 2 2004 => Found 2 releases (from cache) 
+2023-02-17 12:52:06.2947 Info Torznab search in The Pirate Bay for Kill Bill Vol 2 2004 => Found 58 releases (from cache) 
+2023-02-17 12:52:06.3084 Info Torznab search in MoviesDVDR for Kill Bill Vol 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:52:07.0804 Info Torznab search in MejorTorrent for Kill Bill: Vol. 2 2004 => Found 2 releases 
+2023-02-17 12:52:08.2813 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:52:08.2813 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:52:08.2813 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:52:08.2813 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:52:08.2854 Info Torznab search in DivxTotal for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:52:08.2854 Info Torznab search in The Pirate Bay for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:52:08.3031 Info Torznab search in MoviesDVDR for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:52:08.5126 Info Torznab search in MejorTorrent for Kill Bill: Volumen 2 2004 => Found 0 releases 
+2023-02-17 12:53:42.5830 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:53:42.5830 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:53:42.5867 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:53:42.5867 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:53:42.6106 Info Torznab search in DivxTotal for Kill Bill Vol 2 2004 => Found 2 releases (from cache) 
+2023-02-17 12:53:42.6373 Info Torznab search in The Pirate Bay for Kill Bill Vol 2 2004 => Found 58 releases (from cache) 
+2023-02-17 12:53:42.6489 Info Torznab search in MoviesDVDR for Kill Bill Vol 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:53:43.9268 Info Torznab search in MejorTorrent for Kill Bill: Vol. 2 2004 => Found 2 releases 
+2023-02-17 12:53:44.5736 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:53:44.5748 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:53:44.5748 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:53:44.5748 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:53:44.5960 Info Torznab search in DivxTotal for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:53:44.6066 Info Torznab search in The Pirate Bay for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:53:44.6219 Info Torznab search in MoviesDVDR for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:53:44.8585 Info Torznab search in MejorTorrent for Kill Bill: Volumen 2 2004 => Found 0 releases 
+2023-02-17 12:54:18.8943 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:54:18.8943 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:54:18.8950 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:54:18.8950 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:54:18.8950 Info Torznab search in The Pirate Bay for Kill Bill Vol 2 2004 => Found 58 releases (from cache) 
+2023-02-17 12:54:18.9060 Info Torznab search in DivxTotal for Kill Bill Vol 2 2004 => Found 2 releases (from cache) 
+2023-02-17 12:54:18.9168 Info Torznab search in MoviesDVDR for Kill Bill Vol 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:54:19.7668 Info Torznab search in MejorTorrent for Kill Bill: Vol. 2 2004 => Found 2 releases 
+2023-02-17 12:54:20.8940 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:54:20.8940 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:54:20.8940 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:54:20.8940 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:54:20.9011 Info Torznab search in The Pirate Bay for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:54:20.9080 Info Torznab search in DivxTotal for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:54:20.9199 Info Torznab search in MoviesDVDR for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:54:21.1434 Info Torznab search in MejorTorrent for Kill Bill: Volumen 2 2004 => Found 0 releases 
+2023-02-17 12:54:53.5359 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:54:53.5359 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:54:53.8004 Info Torznab search in MejorTorrent for La casa del dragon S01 => Found 0 releases 
+2023-02-17 12:54:54.4874 Info Torznab search in The Pirate Bay for La casa del dragon S01 => Found 0 releases 
+2023-02-17 12:54:55.5342 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:54:55.5342 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:54:55.5639 Info Torznab search in The Pirate Bay for La Casa del Dragon S01 => Found 0 releases 
+2023-02-17 12:54:55.7661 Info Torznab search in MejorTorrent for La Casa del Dragón S01 => Found 0 releases 
+2023-02-17 12:54:56.1868 Info Torznab search in DivxTotal for La casa del dragon S01 => Found 10 releases 
+2023-02-17 12:54:57.5344 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:54:57.5348 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:54:57.7496 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01 => Found 0 releases 
+2023-02-17 12:54:58.4260 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01 => Found 0 releases 
+2023-02-17 12:54:58.6732 Info Torznab search in DivxTotal for La Casa del Dragon S01 => Found 10 releases 
+2023-02-17 12:54:59.5340 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:54:59.5340 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:54:59.8696 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01 => Found 0 releases 
+2023-02-17 12:55:00.0620 Info Torznab search in MejorTorrent for House of the Dragon S01 => Found 0 releases 
+2023-02-17 12:55:00.4634 Info Torznab search in The Pirate Bay for House of the Dragon S01 => Found 21 releases 
+2023-02-17 12:55:01.8265 Info Torznab search in DivxTotal for House of the Dragon S01 => Found 0 releases 
+2023-02-17 12:57:00.9697 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:57:00.9697 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:57:00.9697 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:57:00.9882 Info Torznab search in DivxTotal for Kill Bill Vol 2 2004 => Found 2 releases (from cache) 
+2023-02-17 12:57:00.9826 Info Torznab search in The Pirate Bay for Kill Bill Vol 2 2004 => Found 58 releases (from cache) 
+2023-02-17 12:57:00.9697 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:57:01.0190 Info Torznab search in MoviesDVDR for Kill Bill Vol 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:57:01.9545 Info Torznab search in MejorTorrent for Kill Bill: Vol. 2 2004 => Found 2 releases 
+2023-02-17 12:57:02.9685 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 12:57:02.9755 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:57:02.9755 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 12:57:02.9685 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 12:57:02.9755 Info Torznab search in The Pirate Bay for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:57:02.9755 Info Torznab search in MoviesDVDR for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:57:02.9905 Info Torznab search in DivxTotal for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 12:57:03.2157 Info Torznab search in MejorTorrent for Kill Bill: Volumen 2 2004 => Found 0 releases 
+2023-02-17 12:59:39.2962 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 12:59:39.2962 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 12:59:39.2962 Info Torznab search in MoviesDVDR => Found 30 releases (from cache) 
+2023-02-17 12:59:39.2962 Info Torznab search in DivxTotal => Found 100 releases (from cache) 
+2023-02-17 12:59:39.3051 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 12:59:39.3051 Info Torznab search in MejorTorrent => Found 12 releases (from cache) 
+2023-02-17 12:59:39.3252 Info Torznab search in The Pirate Bay => Found 25 releases (from cache) 
+2023-02-17 13:13:35.1250 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:13:35.1250 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:13:35.1250 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:13:35.1250 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:13:36.0452 Info Torznab search in DivxTotal => Found 36 releases 
+2023-02-17 13:13:36.1880 Info Torznab search in The Pirate Bay => Found 2 releases 
+2023-02-17 13:13:36.8116 Info Torznab search in MoviesDVDR => Found 30 releases 
+2023-02-17 13:13:37.5830 Info Torznab search in MejorTorrent => Found 12 releases 
+2023-02-17 13:15:09.6561 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 13:15:09.6561 Info Torznab search in DivxTotal => Found 100 releases (from cache) 
+2023-02-17 13:15:09.6561 Info Torznab search in MejorTorrent => Found 12 releases (from cache) 
+2023-02-17 13:15:09.6668 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 13:15:09.6668 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 13:15:09.6776 Info Torznab search in MoviesDVDR => Found 30 releases (from cache) 
+2023-02-17 13:15:09.6776 Info Torznab search in The Pirate Bay => Found 25 releases (from cache) 
+2023-02-17 13:18:45.5548 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:18:45.5548 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:18:45.5548 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:18:45.5548 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:18:45.5548 Info Torznab search in MoviesDVDR for Kill Bill Vol 2 2004 => Found 0 releases (from cache) 
+2023-02-17 13:18:45.5777 Info Torznab search in The Pirate Bay for Kill Bill Vol 2 2004 => Found 58 releases (from cache) 
+2023-02-17 13:18:45.5859 Info Torznab search in DivxTotal for Kill Bill Vol 2 2004 => Found 2 releases (from cache) 
+2023-02-17 13:18:46.6174 Info Torznab search in MejorTorrent for Kill Bill: Vol. 2 2004 => Found 2 releases 
+2023-02-17 13:18:47.5453 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:18:47.5453 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:18:47.5453 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:18:47.5453 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:18:47.5546 Info Torznab search in The Pirate Bay for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 13:18:47.5778 Info Torznab search in DivxTotal for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 13:18:47.5866 Info Torznab search in MoviesDVDR for Kill Bill Volumen 2 2004 => Found 0 releases (from cache) 
+2023-02-17 13:18:47.7831 Info Torznab search in MejorTorrent for Kill Bill: Volumen 2 2004 => Found 0 releases 
+2023-02-17 13:20:47.1000 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:20:47.1000 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:20:47.1000 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:20:47.1000 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:20:47.4829 Info Torznab search in MejorTorrent for Red Notice 2021 => Found 0 releases 
+2023-02-17 13:20:48.1634 Info Torznab search in The Pirate Bay for Red Notice 2021 => Found 75 releases 
+2023-02-17 13:20:48.2962 Info Torznab search in MoviesDVDR for Red Notice 2021 => Found 0 releases 
+2023-02-17 13:20:48.3740 Info Torznab search in DivxTotal for Red Notice 2021 => Found 0 releases 
+2023-02-17 13:20:49.0987 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:20:49.0987 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:20:49.0987 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:20:49.0987 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:20:49.9711 Info Torznab search in The Pirate Bay for Alerta roja 2021 => Found 1 releases 
+2023-02-17 13:20:50.2077 Info Torznab search in MoviesDVDR for Alerta roja 2021 => Found 0 releases 
+2023-02-17 13:20:50.3933 Info Torznab search in DivxTotal for Alerta roja 2021 => Found 3 releases 
+2023-02-17 13:20:50.5941 Info Torznab search in MejorTorrent for Alerta roja 2021 => Found 7 releases 
+2023-02-17 13:20:59.7764 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:20:59.7764 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:20:59.7764 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:20:59.7764 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:20:59.7881 Info Torznab search in DivxTotal for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:20:59.7881 Info Torznab search in MoviesDVDR for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:20:59.8008 Info Torznab search in The Pirate Bay for Red Notice 2021 => Found 75 releases (from cache) 
+2023-02-17 13:21:00.0218 Info Torznab search in MejorTorrent for Red Notice 2021 => Found 0 releases 
+2023-02-17 13:21:01.7737 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:21:01.7737 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:21:01.7737 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:21:01.7737 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:21:01.7799 Info Torznab search in The Pirate Bay for Alerta roja 2021 => Found 1 releases (from cache) 
+2023-02-17 13:21:01.7911 Info Torznab search in MoviesDVDR for Alerta roja 2021 => Found 0 releases (from cache) 
+2023-02-17 13:21:01.7957 Info Torznab search in DivxTotal for Alerta roja 2021 => Found 3 releases (from cache) 
+2023-02-17 13:21:03.4792 Info Torznab search in MejorTorrent for Alerta roja 2021 => Found 7 releases 
+2023-02-17 13:21:42.5042 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:21:42.5049 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:21:42.5049 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:21:42.5049 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:21:42.5315 Info Torznab search in MoviesDVDR for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:21:42.5483 Info Torznab search in The Pirate Bay for Red Notice 2021 => Found 75 releases (from cache) 
+2023-02-17 13:21:42.5593 Info Torznab search in DivxTotal for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:21:42.7643 Info Torznab search in MejorTorrent for Red Notice 2021 => Found 0 releases 
+2023-02-17 13:21:44.5027 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:21:44.5027 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:21:44.5027 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:21:44.5027 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:21:44.5143 Info Torznab search in MoviesDVDR for Alerta roja 2021 => Found 0 releases (from cache) 
+2023-02-17 13:21:44.5195 Info Torznab search in DivxTotal for Alerta roja 2021 => Found 3 releases (from cache) 
+2023-02-17 13:21:44.5258 Info Torznab search in The Pirate Bay for Alerta roja 2021 => Found 1 releases (from cache) 
+2023-02-17 13:21:45.9811 Info Torznab search in MejorTorrent for Alerta roja 2021 => Found 7 releases 
+2023-02-17 13:21:53.5299 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:21:53.5299 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:21:53.5299 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:21:53.5299 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:21:53.5432 Info Torznab search in The Pirate Bay for Red Notice 2021 => Found 75 releases (from cache) 
+2023-02-17 13:21:53.5480 Info Torznab search in DivxTotal for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:21:53.5480 Info Torznab search in MoviesDVDR for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:21:53.7749 Info Torznab search in MejorTorrent for Red Notice 2021 => Found 0 releases 
+2023-02-17 13:21:55.5280 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:21:55.5280 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:21:55.5280 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:21:55.5280 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:21:55.5357 Info Torznab search in The Pirate Bay for Alerta roja 2021 => Found 1 releases (from cache) 
+2023-02-17 13:21:55.5460 Info Torznab search in DivxTotal for Alerta roja 2021 => Found 3 releases (from cache) 
+2023-02-17 13:21:55.5460 Info Torznab search in MoviesDVDR for Alerta roja 2021 => Found 0 releases (from cache) 
+2023-02-17 13:21:56.9937 Info Torznab search in MejorTorrent for Alerta roja 2021 => Found 7 releases 
+2023-02-17 13:22:24.3760 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:22:24.3760 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:22:24.3760 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:22:24.3760 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:22:24.3760 Info Torznab search in The Pirate Bay for Red Notice 2021 => Found 75 releases (from cache) 
+2023-02-17 13:22:24.3943 Info Torznab search in DivxTotal for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:22:24.4006 Info Torznab search in MoviesDVDR for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:22:24.7635 Info Torznab search in MejorTorrent for Red Notice 2021 => Found 0 releases 
+2023-02-17 13:22:26.3750 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:22:26.3750 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:22:26.3750 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:22:26.3750 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:22:26.3750 Info Torznab search in The Pirate Bay for Alerta roja 2021 => Found 1 releases (from cache) 
+2023-02-17 13:22:26.3902 Info Torznab search in MoviesDVDR for Alerta roja 2021 => Found 0 releases (from cache) 
+2023-02-17 13:22:26.3960 Info Torznab search in DivxTotal for Alerta roja 2021 => Found 3 releases (from cache) 
+2023-02-17 13:22:27.8220 Info Torznab search in MejorTorrent for Alerta roja 2021 => Found 7 releases 
+2023-02-17 13:24:53.7465 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:24:53.7465 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:24:53.7465 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:24:53.7465 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:24:53.7465 Info Torznab search in The Pirate Bay for Red Notice 2021 => Found 75 releases (from cache) 
+2023-02-17 13:24:53.7678 Info Torznab search in DivxTotal for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:24:53.7770 Info Torznab search in MoviesDVDR for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:24:54.3134 Info Torznab search in MejorTorrent for Red Notice 2021 => Found 0 releases 
+2023-02-17 13:24:55.7406 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:24:55.7406 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:24:55.7406 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:24:55.7406 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:24:55.7471 Info Torznab search in The Pirate Bay for Alerta roja 2021 => Found 1 releases (from cache) 
+2023-02-17 13:24:55.7572 Info Torznab search in DivxTotal for Alerta roja 2021 => Found 3 releases (from cache) 
+2023-02-17 13:24:55.7572 Info Torznab search in MoviesDVDR for Alerta roja 2021 => Found 0 releases (from cache) 
+2023-02-17 13:24:57.0835 Info Torznab search in MejorTorrent for Alerta roja 2021 => Found 7 releases 
+2023-02-17 13:30:39.8737 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 13:30:39.8770 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 13:30:39.9158 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 13:30:42.6808 Info Torznab search in The Pirate Bay => Found 29 releases 
+2023-02-17 13:30:43.1407 Info Torznab search in DivxTotal => Found 100 releases 
+2023-02-17 13:30:43.4631 Info Torznab search in MoviesDVDR => Found 30 releases 
+2023-02-17 13:30:44.3427 Info Torznab search in MejorTorrent => Found 12 releases 
+2023-02-17 13:40:09.0654 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:40:09.0654 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:40:09.0654 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:40:09.0654 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:40:09.0654 Info Torznab search in The Pirate Bay for Red Notice 2021 => Found 75 releases (from cache) 
+2023-02-17 13:40:09.0778 Info Torznab search in MoviesDVDR for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:40:09.0778 Info Torznab search in DivxTotal for Red Notice 2021 => Found 0 releases (from cache) 
+2023-02-17 13:40:09.5706 Info Torznab search in MejorTorrent for Red Notice 2021 => Found 0 releases 
+2023-02-17 13:40:11.0623 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:40:11.0623 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 13:40:11.0623 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 13:40:11.0623 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 13:40:11.0679 Info Torznab search in MoviesDVDR for Alerta roja 2021 => Found 0 releases (from cache) 
+2023-02-17 13:40:11.0795 Info Torznab search in The Pirate Bay for Alerta roja 2021 => Found 1 releases (from cache) 
+2023-02-17 13:40:11.0846 Info Torznab search in DivxTotal for Alerta roja 2021 => Found 3 releases (from cache) 
+2023-02-17 13:40:12.5328 Info Torznab search in MejorTorrent for Alerta roja 2021 => Found 7 releases 
+2023-02-17 13:44:19.8337 Info Jackett stopped 
+2023-02-17 14:30:07.0718 Info Starting Jackett v0.20.3150 
+2023-02-17 14:30:07.9874 Info Environment version: 6.0.14 (/app/Jackett/) 
+2023-02-17 14:30:07.9947 Info OS version: Unix 5.10.16.3 (64bit OS) (64bit process) 
+2023-02-17 14:30:08.0034 Info Jackett variant: CoreLinuxMuslAmdx64 
+2023-02-17 14:30:08.0096 Info File /etc/issue: Welcome to Alpine Linux 3.17 
+2023-02-17 14:30:08.0096 Info Running in Docker: Yes (image build: v0.20.3150-ls94) 
+2023-02-17 14:30:08.0253 Info ThreadPool MaxThreads: 32767 workerThreads, 1000 completionPortThreads 
+2023-02-17 14:30:08.0322 Info App config/log directory: /config/Jackett 
+2023-02-17 14:30:08.0322 Info Using proxy: Disabled 
+2023-02-17 14:30:08.0422 Info Using FlareSolverr: No 
+2023-02-17 14:30:08.0422 Info Using HTTP Client: HttpWebClient2 
+2023-02-17 14:30:08.1016 Info Loading Native indexers ... 
+2023-02-17 14:30:08.3837 Info Loaded 76 Native indexers: alpharatio, anidex, anidub, animebytes, animetorrents, aro, audiobookbay, avistaz, bakabt, beyond-hd-api, bithdtv, bjshare, brasiltracker, broadcasthenet, brokenstones, cgpeers, cinecalidad, cinemaz, darmowetorenty, divxtotal, dontorrent, epublibre, erai-raws, exoticaz, filelist, funfile, gazellegames, gazellegamesapi, greatposterwall, hdbitsapi, hdspace, hdtorrents, immortalseed, iptorrents, libble, lostfilm, magnetico, mejortorrent, myanonamouse, ncore, nebulanceapi, norbits, orpheus, partis, passthepopcorn, piratethenet, pixelhd, pornolab, pretome, privatehd, rarbg, redacted, retroflix, revolutiontt, rutracker, scenehd, scenetime, secretcinema, sharewoodapi, shazbat, speedapp, speedcd, subsplease, toloka, torrentbytes, torrentday, torrentheaven, torrentnetwork, torrentscsv, torrentsyndikat, tvstore, uniotaku, xspeeds, zonaq, animetosho, morethantv-api 
+2023-02-17 14:30:08.3903 Info Loading Cardigann indexers from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2023-02-17 14:30:11.1449 Info Loaded 494 Cardigann indexers: dark-shadow, unionfansub, hdc, rapidzona, libranet, cpasbienclone, 0daykiev, jme-reunit3d-api, skipthetrailers, mteamtp2fa, mircrew, soulvoice, mvgroupforum, theoccult, reelflix-api, yggtorrent, 3dtorrents, metaltracker, the-crazy-ones, movietorrent, rainbowtracker, torrent9, cloudtorrents, peeratiko, whiteangel, bitspyder, hdonly, bitsearch, learnbits, hdroute, selezen, finvip, indietorrents, btsow, torrentproject2, kinozal, gimmepeers, acervos, cathoderaytube, cinemamovies, btschool, hd-unit3d-api, datascene-api, torrentz2nz, puntotorrent, putao, pussytorrents, torrentwhiz, hd4fans, torrentdownload, dodder, ccfbits, RockBox, acrossthetasman, torrentccf, falkonvisionteam, pctorrent, gay-torrentsorg, torrentmasters, rintor, happyfappy, opencd, portugas-api, kickasstorrents-to, yourbittorrent, chdbits, byrbt, aither-api, aidoruonline, oshenpt, isohunt2, theshow, torrentkitty, greekdiamond, btmet, ihdbits, scenerush, miobt, les-cinephiles, nyaasi, torrentlt, cpasbien, cartoonchaos, divteam, borgzelle, p2pbg, 2fast4you, crnaberza, tornado, dmhy, showrss, empornium, arenabg, sosulki, madsrevolution, bitbazis, btetree, hdatmos, cpasbiensi, audionews, hdchina, finelite, acidlounge, thevault, hdarea, teamhd, bithumen, thedarkcommunity, sktorrent-org, file-tracker, aussierules, turktorrent, glodls, nipponsei, fuzer, teamctgame, r3vwtf, animetracker, chilebt, fluxzone, uhdbits, comicat, rus-media, torrent-turk, aftershock, tokyotosho, funkytorrents, concen, animeworld-api, world-of-tomorrow, discfan, crazyspirits, snowpt, tjupt, sporthd, totheglorycookie, noname-club, pthome, crazyhd, audiences, solidtorrents, sdbits, 1ptbar, torrentgalaxy, speedtorrentreloaded, majomparade, digitalcore, beyond-hd, hdmayi, peersfm, 2xfree, idope, sharkpt, torrentsir, blutopia-api, girotorrent, femdomcult, unleashthecartoons, mma-torrents, 1337x, racingforme, cinematik, slosoul, mesevilag, xwtclassics, turkseed, thegeeks, superbits, magicheaven, ptchina, linuxtracker, pornleech, eztv, magico, datatalli, bt4g, lesaloon, ilcorsaroblu, bwtorrents, marinetracker, hdforever, rudub, brsociety-api, skipthecommercials-api, torrentoyunindir, ourbits, pttime, xiteme, muziekfabriek, fantastiko, mixtapetorrent, houseofdevil, hellashut, potuk, pornbay, gay-torrents, limetorrents, booktracker, nethd, hddolby, firebit, boxingtorrents, danishbytes-api, torrent-pirat, diablotorrent, theplace, thenewfun, tapochek, huntorrent, abnormal, pornotorrent, kickasstorrents-ws, amigosshare, torrentfunk, torrentland, haitang, hdmonkey, sukebeinyaasi, traht, empornium2fa, theoldschool-api, newstudio, uniondht, korsar, yggcookie, torrentcore, frozenlayer, lemonhd, rutracker-ru, mypornclub, gktorrent, newretro, asiandvdclub, internetarchive, pterclub, theempire, icc2022, hdu, deildu, xthor-api, bootytape, animelayer, trancetraffic, rintornet, hdhome, torrentseeds-api, trezzor, classix, mactorrentsdownload, rustorka, theleachzone, concertos, sktorrent, mousebits, extremebits, ilcorsaronero, seedfile, wihd, redstartorrent, docspedia, generationfree-api, speedmasterhd, kinorun, immortuos, locadora, eniahd, mvgroupmain, unlimitz, fenyarnyek-tracker, totheglory, btdigg, torrenthr, bigfangroup, bitded, arabp2p, megamixtracker, hdturk, anime-free, acgsou, crt2fa, sportscult, catorrent, polishtracker-api, krazyzone, mojblink, tekno3d, learnflakes, twilight, losslessclub, crackingpatching, arabafenice, vsttorrents, nicept, xxxtorrents, btnext, theshinning-api, leech24, puurhollands, anthelion-api, Bittorrentfiles, dxp, freshmeat, extremetorrents, torrentqq, lastfiles, xxxadulttorrent, hdolimpo-api, ebookbay, noname-clubl, torrentleech-pl, exkinoray, torrenting, ptsbao, demonoid, limetorrentsclone, rutor, torrent911, coastalcrew, newstudiol, megapeer, torrentdownloads, mikan, devil-torrents, gtorrentpro, bestcore, ebooks-shares, tvroad, hdcztorrent, torrentz2eu, ydypt, torrent-explosiv, itorrent, bitofvalor, anisource, pixelcove2fa, vtorrent, torrentv, bluebirdhd, pornoslab, rptorrents, fantasticheaven, redbits-api, filelisting, swarmazon-api, cinemageddon, 4thd, hdtime, nntt, acgrip, parnuxi, beitai, esharenet, racing4everyone-api, piratbitl, haidan, xbytesv2, teamos, themixingbowl, byrutor, torrent9clone, torlock, shareisland-api, ftuapps, jptv, bitturk, onejav, mazepa, tmghub, keepfriends, pornforall, extratorrent-st, thefallingangels, 52pt, backups, pwtorrents, proporno, badasstorrents, sharewood, uniongang, insanetracker, pixelcove, torrentleech, moviesite, xxxtor, carpathians, movietorrentz, bulltorrent, jpopsuki, torrentby, desitorrents-api, woot, gaytorrentru, seedoff, siambit, 0magnet, ehentai, moviesdvdr, fanoin, hebits, ptfiles, satclubbing, genesismovement, exttorrents, tribalmixes, thesceneplace, gainbound, bithorlo, shanaproject, zomb, broadcity, hawke-uno, anilibria, knaben, kufirc, estone, bangumi-moe, dimeadozen, asiancinema, hdtorrentsit, spidertk, vsthouse, torrentbd, carphunter, lst, tlfbits, myspleen, mnv, yts, springsunday, greekteam, lepornoinfo, torrentslocal, 3changtrai, tasmanit, riperam, ptmsg, bitsexy, dreamtracker, tellytorrent-api, hhanclub, ceskeforum, romanianmetaltorrents, torrentview, oldtoonsworld, pignetwork, xtremebytes, ztracker, zmpt, rgfootball, bibliotik, sexypics, polishsource, bitnova, linkomanija, electro-torrent, joyhd, piratbit, zetorrents, lat-team-api, abtorrents, hdfans, spiritofrevolution, zamundanet, bitru, torrentsectorcrew, zelkaorg, hdsky, xtorrenty, gigatorrents, aniRena, trupornolabs, sugoimusic, thepiratebay, proaudiotorrents, resurrectthenet, gamestorrents, karagarga, hdzone, hdgalaktik, legittorrents, punkshorror, jav-torrent, xwtorrents, pier720, mteamtp, u2, carpt, totallykids, hqmusic, dariustracker, extremlymtorrents, teracod, milkie, tvchaosuk 
+2023-02-17 14:30:11.1449 Info Loaded 570 indexers in total 
+2023-02-17 14:30:11.1562 Info Adding aggregate indexer ('all' indexer) ... 
+2023-02-17 14:30:11.1703 Info Adding filter indexer ('type:public' indexer) ... 
+2023-02-17 14:30:11.1703 Info Adding filter indexer ('type:private' indexer) ... 
+2023-02-17 14:30:11.1821 Info Adding filter indexer ('type:semi-public' indexer) ... 
+2023-02-17 14:30:11.4120 Info Jackett startup finished in 5.058 s 
+2023-02-17 14:30:34.3174 Warn Some of the categories provided are unsupported in DivxTotal: 2010,2020,2045,2050 
+2023-02-17 14:30:34.3174 Warn Some of the categories provided are unsupported in MejorTorrent: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 14:30:34.3174 Warn Some of the categories provided are unsupported in MoviesDVDR: 2010,2020,2030,2040,2045,2050,2060 
+2023-02-17 14:30:34.3174 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 14:30:36.0701 Info Torznab search in DivxTotal => Found 36 releases 
+2023-02-17 14:30:36.2190 Info Torznab search in The Pirate Bay => Found 1 releases 
+2023-02-17 14:30:36.2557 Info Torznab search in MoviesDVDR => Found 30 releases 
+2023-02-17 14:30:37.4188 Info Torznab search in MejorTorrent => Found 12 releases 
+2023-02-17 14:30:38.3869 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 14:30:38.4011 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 14:30:38.4011 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 14:30:39.3133 Info Torznab search in The Pirate Bay => Found 34 releases 
+2023-02-17 14:30:39.4371 Info Torznab search in MoviesDVDR => Found 30 releases 
+2023-02-17 14:30:40.1343 Info Torznab search in DivxTotal => Found 100 releases 
+2023-02-17 14:30:40.5944 Info Torznab search in MejorTorrent => Found 12 releases 
+2023-02-17 14:31:14.5120 Info Torznab search in DivxTotal => Found 100 releases (from cache) 
+2023-02-17 14:31:14.5844 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 14:31:14.5906 Info Torznab search in MejorTorrent => Found 12 releases (from cache) 
+2023-02-17 14:31:14.6128 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 14:31:14.6200 Info Torznab search in MoviesDVDR => Found 30 releases (from cache) 
+2023-02-17 14:31:14.6661 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 14:31:14.6771 Info Torznab search in The Pirate Bay => Found 34 releases (from cache) 
+2023-02-17 14:36:28.2374 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 14:36:28.2374 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 14:36:29.0306 Info Torznab search in MejorTorrent for La casa del dragon S01 => Found 0 releases 
+2023-02-17 14:36:29.5302 Info Torznab search in The Pirate Bay for La casa del dragon S01 => Found 0 releases 
+2023-02-17 14:36:30.2329 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 14:36:30.2329 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 14:36:30.2728 Info Torznab search in The Pirate Bay for La Casa del Dragon S01 => Found 0 releases 
+2023-02-17 14:36:30.4975 Info Torznab search in MejorTorrent for La Casa del Dragón S01 => Found 0 releases 
+2023-02-17 14:36:31.0759 Info Torznab search in DivxTotal for La casa del dragon S01 => Found 10 releases 
+2023-02-17 14:36:32.2313 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 14:36:32.2313 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 14:36:32.4913 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01 => Found 0 releases 
+2023-02-17 14:36:33.1163 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01 => Found 0 releases 
+2023-02-17 14:36:33.7201 Info Torznab search in DivxTotal for La Casa del Dragon S01 => Found 10 releases 
+2023-02-17 14:36:34.2315 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 14:36:34.2315 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 14:36:34.4891 Info Torznab search in MejorTorrent for House of the Dragon S01 => Found 0 releases 
+2023-02-17 14:36:34.8717 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01 => Found 0 releases 
+2023-02-17 14:36:34.9816 Info Torznab search in The Pirate Bay for House of the Dragon S01 => Found 21 releases 
+2023-02-17 14:36:36.9251 Info Torznab search in DivxTotal for House of the Dragon S01 => Found 0 releases 
+2023-02-17 14:46:08.2940 Info Torznab search in DivxTotal => Found 100 releases (from cache) 
+2023-02-17 14:46:08.2940 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 14:46:08.3154 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 14:46:08.3161 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 14:46:08.3161 Info Torznab search in The Pirate Bay => Found 34 releases (from cache) 
+2023-02-17 14:46:08.3479 Info Torznab search in MoviesDVDR => Found 30 releases (from cache) 
+2023-02-17 14:46:08.3626 Info Torznab search in MejorTorrent => Found 12 releases (from cache) 
+2023-02-17 15:01:38.4441 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 15:01:38.4560 Info Torznab search in MejorTorrent => Found 12 releases (from cache) 
+2023-02-17 15:01:38.4560 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 15:01:38.4560 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 15:01:38.4560 Info Torznab search in DivxTotal => Found 100 releases (from cache) 
+2023-02-17 15:01:38.4790 Info Torznab search in MoviesDVDR => Found 30 releases (from cache) 
+2023-02-17 15:01:38.4851 Info Torznab search in The Pirate Bay => Found 34 releases (from cache) 
+2023-02-17 15:14:15.8392 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 15:14:15.8392 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 15:14:16.5883 Info Torznab search in MejorTorrent for La casa del dragon S01 => Found 0 releases 
+2023-02-17 15:14:17.8302 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 15:14:18.1008 Info Torznab search in MejorTorrent for La Casa del Dragón S01 => Found 0 releases 
+2023-02-17 15:14:18.1180 Info Torznab search in The Pirate Bay for La casa del dragon S01 => Found 0 releases 
+2023-02-17 15:14:18.1308 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 15:14:18.1765 Info Torznab search in The Pirate Bay for La Casa del Dragon S01 => Found 0 releases 
+2023-02-17 15:14:19.2764 Info Torznab search in DivxTotal for La casa del dragon S01 => Found 10 releases 
+2023-02-17 15:14:19.8317 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 15:14:20.1094 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:14:20.1312 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 15:14:21.0150 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:14:21.8308 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 15:14:22.0097 Info Torznab search in DivxTotal for La Casa del Dragon S01 => Found 10 releases 
+2023-02-17 15:14:22.1062 Info Torznab search in MejorTorrent for House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:14:22.1306 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 15:14:23.0896 Info Torznab search in The Pirate Bay for House of the Dragon S01 => Found 21 releases 
+2023-02-17 15:14:23.2367 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:14:25.3194 Info Torznab search in DivxTotal for House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:17:08.6822 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 15:17:08.6982 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 15:17:08.6982 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 15:17:09.5852 Info Torznab search in The Pirate Bay => Found 26 releases 
+2023-02-17 15:17:09.9367 Info Torznab search in MoviesDVDR => Found 30 releases 
+2023-02-17 15:17:10.7606 Info Torznab search in DivxTotal => Found 100 releases 
+2023-02-17 15:17:11.1887 Info Torznab search in MejorTorrent => Found 12 releases 
+2023-02-17 15:20:03.8814 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 15:20:03.8814 Info Torznab search in DivxTotal for La casa del dragon S01 => Found 10 releases (from cache) 
+2023-02-17 15:20:03.8814 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 15:20:03.9045 Info Torznab search in The Pirate Bay for La casa del dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:20:04.3281 Info Torznab search in MejorTorrent for La casa del dragon S01 => Found 0 releases 
+2023-02-17 15:20:05.8791 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 15:20:05.8791 Info Torznab search in DivxTotal for La Casa del Dragon S01 => Found 10 releases (from cache) 
+2023-02-17 15:20:05.8791 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 15:20:05.8967 Info Torznab search in The Pirate Bay for La Casa del Dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:20:06.1649 Info Torznab search in MejorTorrent for La Casa del Dragón S01 => Found 0 releases 
+2023-02-17 15:20:07.8785 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 15:20:07.8785 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 15:20:07.8785 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:20:07.8785 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:20:08.0902 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:20:09.8788 Warn Some of the categories provided are unsupported in MejorTorrent: 8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060,2070 
+2023-02-17 15:20:09.8788 Warn Some of the categories provided are unsupported in The Pirate Bay: 5030,8010,108315,114567,114820,117005,117804,151468,155079,2030,2070 
+2023-02-17 15:20:09.8788 Info Torznab search in DivxTotal for House of the Dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:20:09.8902 Info Torznab search in The Pirate Bay for House of the Dragon S01 => Found 21 releases (from cache) 
+2023-02-17 15:20:10.0885 Info Torznab search in MejorTorrent for House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:21:32.8072 Info Torznab search in MejorTorrent => Found 12 releases 
+2023-02-17 15:22:33.8310 Info Torznab search in The Pirate Bay => Found 50 releases 
+2023-02-17 15:23:15.8638 Info Torznab search in DivxTotal => Found 100 releases 
+2023-02-17 15:23:25.6246 Info Torznab search in MejorTorrent => Found 12 releases 
+2023-02-17 15:23:32.4811 Info Torznab search in MoviesDVDR => Found 30 releases 
+2023-02-17 15:24:23.7178 Info Torznab search in DivxTotal for La casa del dragon S01 => Found 10 releases (from cache) 
+2023-02-17 15:24:23.9389 Info Torznab search in MejorTorrent for La casa del dragon S01 => Found 0 releases 
+2023-02-17 15:24:24.6546 Info Torznab search in The Pirate Bay for La casa del dragon S01 => Found 0 releases 
+2023-02-17 15:24:25.7168 Info Torznab search in DivxTotal for La Casa del Dragon S01 => Found 10 releases (from cache) 
+2023-02-17 15:24:25.7383 Info Torznab search in The Pirate Bay for La Casa del Dragon S01 => Found 0 releases 
+2023-02-17 15:24:25.9308 Info Torznab search in MejorTorrent for La Casa del Dragón S01 => Found 0 releases 
+2023-02-17 15:24:27.7166 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:24:27.9945 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:24:28.5945 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:24:29.7171 Info Torznab search in DivxTotal for House of the Dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:24:29.9336 Info Torznab search in MejorTorrent for House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:24:30.6979 Info Torznab search in The Pirate Bay for House of the Dragon S01 => Found 21 releases 
+2023-02-17 15:25:05.2156 Info Torznab search in DivxTotal for La casa del dragon S01 => Found 10 releases (from cache) 
+2023-02-17 15:25:05.2156 Info Torznab search in The Pirate Bay for La casa del dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:25:05.4548 Info Torznab search in MejorTorrent for La casa del dragon S01 => Found 0 releases 
+2023-02-17 15:25:07.2111 Info Torznab search in DivxTotal for La Casa del Dragon S01 => Found 10 releases (from cache) 
+2023-02-17 15:25:07.2111 Info Torznab search in The Pirate Bay for La Casa del Dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:25:07.6403 Info Torznab search in MejorTorrent for La Casa del Dragón S01 => Found 0 releases 
+2023-02-17 15:25:09.2095 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:25:09.2095 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:25:09.4126 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:25:11.2015 Info Torznab search in DivxTotal for House of the Dragon S01 => Found 0 releases (from cache) 
+2023-02-17 15:25:11.2015 Info Torznab search in The Pirate Bay for House of the Dragon S01 => Found 21 releases (from cache) 
+2023-02-17 15:25:11.4163 Info Torznab search in MejorTorrent for House of the Dragon S01 => Found 0 releases 
+2023-02-17 15:26:36.1004 Info Torznab search in The Pirate Bay for La casa del dragon S01E10 => Found 0 releases 
+2023-02-17 15:26:36.3004 Info Torznab search in MejorTorrent for La casa del dragon S01E10 => Found 2 releases 
+2023-02-17 15:26:36.9469 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E10 => Found 0 releases 
+2023-02-17 15:26:37.6757 Info Torznab search in MejorTorrent for La Casa del Dragón S01E10 => Found 2 releases 
+2023-02-17 15:26:38.2774 Info Torznab search in DivxTotal for La casa del dragon S01E10 => Found 1 releases 
+2023-02-17 15:26:39.1288 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E10 => Found 0 releases 
+2023-02-17 15:26:39.8317 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E10 => Found 0 releases 
+2023-02-17 15:26:40.9226 Info Torznab search in DivxTotal for La Casa del Dragon S01E10 => Found 1 releases 
+2023-02-17 15:26:41.1305 Info Torznab search in MejorTorrent for House of the Dragon S01E10 => Found 0 releases 
+2023-02-17 15:26:41.8733 Info Torznab search in The Pirate Bay for House of the Dragon S01E10 => Found 42 releases 
+2023-02-17 15:26:42.0530 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E10 => Found 0 releases 
+2023-02-17 15:26:44.1106 Info Torznab search in DivxTotal for House of the Dragon S01E10 => Found 0 releases 
+2023-02-17 15:27:02.8816 Info Torznab search in The Pirate Bay for La casa del dragon S01E01 => Found 0 releases 
+2023-02-17 15:27:03.0178 Info Torznab search in MejorTorrent for La casa del dragon S01E01 => Found 2 releases 
+2023-02-17 15:27:04.7859 Info Torznab search in DivxTotal for La casa del dragon S01E01 => Found 1 releases 
+2023-02-17 15:27:04.8844 Info Torznab search in The Pirate Bay for La casa del dragon S01E02 => Found 0 releases 
+2023-02-17 15:27:05.1797 Info Torznab search in MejorTorrent for La casa del dragon S01E02 => Found 2 releases 
+2023-02-17 15:27:06.0281 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E01 => Found 0 releases 
+2023-02-17 15:27:06.7404 Info Torznab search in DivxTotal for La casa del dragon S01E02 => Found 1 releases 
+2023-02-17 15:27:06.8792 Info Torznab search in MejorTorrent for La Casa del Dragón S01E01 => Found 2 releases 
+2023-02-17 15:27:08.6983 Info Torznab search in The Pirate Bay for La casa del dragon S01E03 => Found 0 releases 
+2023-02-17 15:27:08.7257 Info Torznab search in DivxTotal for La casa del dragon S01E03 => Found 1 releases 
+2023-02-17 15:27:08.9006 Info Torznab search in MejorTorrent for La casa del dragon S01E03 => Found 2 releases 
+2023-02-17 15:27:10.0116 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E02 => Found 0 releases 
+2023-02-17 15:27:10.5813 Info Torznab search in DivxTotal for La Casa del Dragon S01E01 => Found 1 releases 
+2023-02-17 15:27:10.8005 Info Torznab search in MejorTorrent for La Casa del Dragón S01E02 => Found 2 releases 
+2023-02-17 15:27:12.2206 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E01 => Found 0 releases 
+2023-02-17 15:27:12.7579 Info Torznab search in DivxTotal for La Casa del Dragon S01E02 => Found 1 releases 
+2023-02-17 15:27:12.8468 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E01 => Found 0 releases 
+2023-02-17 15:27:14.0102 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E03 => Found 0 releases 
+2023-02-17 15:27:14.6788 Info Torznab search in DivxTotal for La Casa del Dragon S01E03 => Found 1 releases 
+2023-02-17 15:27:15.1139 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E01 => Found 0 releases 
+2023-02-17 15:27:15.1901 Info Torznab search in MejorTorrent for La Casa del Dragón S01E03 => Found 2 releases 
+2023-02-17 15:27:16.2027 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E02 => Found 0 releases 
+2023-02-17 15:27:16.8638 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E02 => Found 0 releases 
+2023-02-17 15:27:17.1464 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E02 => Found 0 releases 
+2023-02-17 15:27:18.2064 Info Torznab search in MejorTorrent for House of the Dragon S01E01 => Found 0 releases 
+2023-02-17 15:27:18.7787 Info Torznab search in The Pirate Bay for House of the Dragon S01E01 => Found 45 releases 
+2023-02-17 15:27:19.1620 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E03 => Found 0 releases 
+2023-02-17 15:27:20.2070 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E03 => Found 0 releases 
+2023-02-17 15:27:20.8568 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E03 => Found 0 releases 
+2023-02-17 15:27:21.1530 Info Torznab search in DivxTotal for House of the Dragon S01E01 => Found 0 releases 
+2023-02-17 15:27:22.2003 Info Torznab search in MejorTorrent for House of the Dragon S01E02 => Found 0 releases 
+2023-02-17 15:27:22.9690 Info Torznab search in The Pirate Bay for House of the Dragon S01E02 => Found 51 releases 
+2023-02-17 15:27:23.1430 Info Torznab search in DivxTotal for House of the Dragon S01E02 => Found 0 releases 
+2023-02-17 15:27:24.2331 Info Torznab search in MejorTorrent for House of the Dragon S01E03 => Found 0 releases 
+2023-02-17 15:27:24.9677 Info Torznab search in The Pirate Bay for House of the Dragon S01E03 => Found 52 releases 
+2023-02-17 15:27:25.1387 Info Torznab search in DivxTotal for House of the Dragon S01E03 => Found 0 releases 
+2023-02-17 15:27:26.8030 Info Torznab search in MejorTorrent for La casa del dragon S01E04 => Found 2 releases 
+2023-02-17 15:27:26.8536 Info Torznab search in The Pirate Bay for La casa del dragon S01E04 => Found 0 releases 
+2023-02-17 15:27:28.5434 Info Torznab search in DivxTotal for La casa del dragon S01E04 => Found 1 releases 
+2023-02-17 15:27:28.7989 Info Torznab search in MejorTorrent for La casa del dragon S01E05 => Found 2 releases 
+2023-02-17 15:27:28.8727 Info Torznab search in The Pirate Bay for La casa del dragon S01E05 => Found 0 releases 
+2023-02-17 15:27:30.0162 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E04 => Found 0 releases 
+2023-02-17 15:27:30.6156 Info Torznab search in DivxTotal for La casa del dragon S01E05 => Found 1 releases 
+2023-02-17 15:27:30.8593 Info Torznab search in MejorTorrent for La Casa del Dragón S01E04 => Found 2 releases 
+2023-02-17 15:27:32.6199 Info Torznab search in DivxTotal for La casa del dragon S01E06 => Found 1 releases 
+2023-02-17 15:27:32.8437 Info Torznab search in The Pirate Bay for La casa del dragon S01E06 => Found 0 releases 
+2023-02-17 15:27:33.0805 Info Torznab search in MejorTorrent for La casa del dragon S01E06 => Found 2 releases 
+2023-02-17 15:27:34.0106 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E05 => Found 0 releases 
+2023-02-17 15:27:34.6801 Info Torznab search in DivxTotal for La Casa del Dragon S01E04 => Found 1 releases 
+2023-02-17 15:27:34.8044 Info Torznab search in MejorTorrent for La Casa del Dragón S01E05 => Found 2 releases 
+2023-02-17 15:27:36.2106 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E04 => Found 0 releases 
+2023-02-17 15:27:36.7603 Info Torznab search in DivxTotal for La Casa del Dragon S01E05 => Found 1 releases 
+2023-02-17 15:27:36.8589 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E04 => Found 0 releases 
+2023-02-17 15:27:38.0123 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E06 => Found 0 releases 
+2023-02-17 15:27:38.6839 Info Torznab search in DivxTotal for La Casa del Dragon S01E06 => Found 1 releases 
+2023-02-17 15:27:38.8787 Info Torznab search in MejorTorrent for La Casa del Dragón S01E06 => Found 2 releases 
+2023-02-17 15:27:39.1489 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E04 => Found 0 releases 
+2023-02-17 15:27:40.2260 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E05 => Found 0 releases 
+2023-02-17 15:27:40.8665 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E05 => Found 0 releases 
+2023-02-17 15:27:41.1961 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E05 => Found 0 releases 
+2023-02-17 15:27:42.2496 Info Torznab search in MejorTorrent for House of the Dragon S01E04 => Found 0 releases 
+2023-02-17 15:27:43.0671 Info Torznab search in The Pirate Bay for House of the Dragon S01E04 => Found 51 releases 
+2023-02-17 15:27:43.2098 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E06 => Found 0 releases 
+2023-02-17 15:27:44.5133 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E06 => Found 0 releases 
+2023-02-17 15:27:44.8735 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E06 => Found 0 releases 
+2023-02-17 15:27:45.2648 Info Torznab search in DivxTotal for House of the Dragon S01E04 => Found 0 releases 
+2023-02-17 15:27:46.2844 Info Torznab search in MejorTorrent for House of the Dragon S01E05 => Found 0 releases 
+2023-02-17 15:27:47.0476 Info Torznab search in The Pirate Bay for House of the Dragon S01E05 => Found 50 releases 
+2023-02-17 15:27:47.2158 Info Torznab search in DivxTotal for House of the Dragon S01E05 => Found 0 releases 
+2023-02-17 15:27:47.9924 Info Torznab search in MejorTorrent for La casa del dragon S01E02 => Found 2 releases (from cache) 
+2023-02-17 15:27:47.9924 Info Torznab search in DivxTotal for La casa del dragon S01E02 => Found 1 releases (from cache) 
+2023-02-17 15:27:47.9965 Info Torznab search in The Pirate Bay for La casa del dragon S01E02 => Found 0 releases (from cache) 
+2023-02-17 15:27:50.2897 Info Torznab search in MejorTorrent for House of the Dragon S01E06 => Found 0 releases 
+2023-02-17 15:27:51.0480 Info Torznab search in The Pirate Bay for House of the Dragon S01E06 => Found 48 releases 
+2023-02-17 15:27:51.2088 Info Torznab search in DivxTotal for House of the Dragon S01E06 => Found 0 releases 
+2023-02-17 15:27:52.7067 Info Torznab search in The Pirate Bay for La casa del dragon S01E07 => Found 0 releases 
+2023-02-17 15:27:53.1119 Info Torznab search in MejorTorrent for La casa del dragon S01E07 => Found 2 releases 
+2023-02-17 15:27:53.9914 Info Torznab search in DivxTotal for La Casa del Dragon S01E02 => Found 1 releases (from cache) 
+2023-02-17 15:27:53.9914 Info Torznab search in MejorTorrent for La Casa del Dragón S01E02 => Found 2 releases (from cache) 
+2023-02-17 15:27:53.9969 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E02 => Found 0 releases (from cache) 
+2023-02-17 15:27:54.7708 Info Torznab search in DivxTotal for La casa del dragon S01E07 => Found 1 releases 
+2023-02-17 15:27:56.8803 Info Torznab search in The Pirate Bay for La casa del dragon S01E08 => Found 0 releases 
+2023-02-17 15:27:57.3829 Info Torznab search in MejorTorrent for La casa del dragon S01E08 => Found 2 releases 
+2023-02-17 15:27:58.0196 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E07 => Found 0 releases 
+2023-02-17 15:27:58.8428 Info Torznab search in DivxTotal for La casa del dragon S01E08 => Found 1 releases 
+2023-02-17 15:27:59.3954 Info Torznab search in MejorTorrent for La Casa del Dragón S01E07 => Found 2 releases 
+2023-02-17 15:27:59.9933 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E02 => Found 0 releases (from cache) 
+2023-02-17 15:28:00.8967 Info Torznab search in DivxTotal for La casa del dragon S01E09 => Found 1 releases 
+2023-02-17 15:28:00.9077 Info Torznab search in The Pirate Bay for La casa del dragon S01E09 => Found 0 releases 
+2023-02-17 15:28:01.2026 Info Torznab search in MejorTorrent for La casa del dragon S01E09 => Found 2 releases 
+2023-02-17 15:28:02.0017 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E02 => Found 0 releases (from cache) 
+2023-02-17 15:28:02.0017 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E02 => Found 0 releases (from cache) 
+2023-02-17 15:28:04.0205 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E08 => Found 0 releases 
+2023-02-17 15:28:04.8231 Info Torznab search in DivxTotal for La Casa del Dragon S01E07 => Found 1 releases 
+2023-02-17 15:28:05.1462 Info Torznab search in MejorTorrent for La Casa del Dragón S01E08 => Found 2 releases 
+2023-02-17 15:28:05.9910 Info Torznab search in DivxTotal for House of the Dragon S01E02 => Found 0 releases (from cache) 
+2023-02-17 15:28:06.2417 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E07 => Found 0 releases 
+2023-02-17 15:28:06.7068 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E07 => Found 0 releases 
+2023-02-17 15:28:06.8450 Info Torznab search in DivxTotal for La Casa del Dragon S01E08 => Found 1 releases 
+2023-02-17 15:28:08.0223 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E09 => Found 0 releases 
+2023-02-17 15:28:09.0656 Info Torznab search in MejorTorrent for La Casa del Dragón S01E09 => Found 2 releases 
+2023-02-17 15:28:09.9908 Info Torznab search in MejorTorrent for House of the Dragon S01E02 => Found 0 releases (from cache) 
+2023-02-17 15:28:09.9908 Info Torznab search in The Pirate Bay for House of the Dragon S01E02 => Found 51 releases (from cache) 
+2023-02-17 15:28:10.9689 Info Torznab search in DivxTotal for La Casa del Dragon S01E09 => Found 1 releases 
+2023-02-17 15:28:11.2448 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E07 => Found 0 releases 
+2023-02-17 15:28:12.3481 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E08 => Found 0 releases 
+2023-02-17 15:28:12.8872 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E08 => Found 0 releases 
+2023-02-17 15:28:13.1943 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E08 => Found 0 releases 
+2023-02-17 15:28:14.3973 Info Torznab search in MejorTorrent for House of the Dragon S01E07 => Found 0 releases 
+2023-02-17 15:28:15.1518 Info Torznab search in The Pirate Bay for House of the Dragon S01E07 => Found 52 releases 
+2023-02-17 15:28:15.3556 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E09 => Found 0 releases 
+2023-02-17 15:28:16.2377 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E09 => Found 0 releases 
+2023-02-17 15:28:16.7040 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E09 => Found 0 releases 
+2023-02-17 15:28:17.2790 Info Torznab search in DivxTotal for House of the Dragon S01E07 => Found 0 releases 
+2023-02-17 15:28:18.2915 Info Torznab search in MejorTorrent for House of the Dragon S01E08 => Found 0 releases 
+2023-02-17 15:28:19.0429 Info Torznab search in The Pirate Bay for House of the Dragon S01E08 => Found 38 releases 
+2023-02-17 15:28:19.2506 Info Torznab search in DivxTotal for House of the Dragon S01E08 => Found 0 releases 
+2023-02-17 15:28:20.3054 Info Torznab search in MejorTorrent for House of the Dragon S01E09 => Found 0 releases 
+2023-02-17 15:28:21.0048 Info Torznab search in The Pirate Bay for House of the Dragon S01E09 => Found 39 releases 
+2023-02-17 15:28:21.2772 Info Torznab search in DivxTotal for House of the Dragon S01E09 => Found 0 releases 
+2023-02-17 15:28:21.9900 Info Torznab search in DivxTotal for La casa del dragon S01E10 => Found 1 releases (from cache) 
+2023-02-17 15:28:21.9900 Info Torznab search in MejorTorrent for La casa del dragon S01E10 => Found 2 releases (from cache) 
+2023-02-17 15:28:21.9900 Info Torznab search in The Pirate Bay for La casa del dragon S01E10 => Found 0 releases (from cache) 
+2023-02-17 15:28:23.9910 Info Torznab search in DivxTotal for La Casa del Dragon S01E10 => Found 1 releases (from cache) 
+2023-02-17 15:28:23.9910 Info Torznab search in MejorTorrent for La Casa del Dragón S01E10 => Found 2 releases (from cache) 
+2023-02-17 15:28:23.9910 Info Torznab search in The Pirate Bay for La Casa del Dragon S01E10 => Found 0 releases (from cache) 
+2023-02-17 15:28:25.9932 Info Torznab search in MejorTorrent for Game of Thrones: House of the Dragon S01E10 => Found 0 releases (from cache) 
+2023-02-17 15:28:25.9932 Info Torznab search in DivxTotal for Game of Thrones House of the Dragon S01E10 => Found 0 releases (from cache) 
+2023-02-17 15:28:25.9932 Info Torznab search in The Pirate Bay for Game of Thrones House of the Dragon S01E10 => Found 0 releases (from cache) 
+2023-02-17 15:28:27.9908 Info Torznab search in MejorTorrent for House of the Dragon S01E10 => Found 0 releases (from cache) 
+2023-02-17 15:28:27.9908 Info Torznab search in DivxTotal for House of the Dragon S01E10 => Found 0 releases (from cache) 
+2023-02-17 15:28:27.9908 Info Torznab search in The Pirate Bay for House of the Dragon S01E10 => Found 42 releases (from cache) 
+2023-02-17 15:30:11.1884 Info Checking for updates... Jackett variant: CoreLinuxMuslAmdx64 
+2023-02-17 15:30:12.0575 Info Jackett is already updated. Current version: v0.20.3150 
+2023-02-17 15:31:05.1111 Warn Some of the categories provided are unsupported in The Pirate Bay: 2010,2030,2045,2050 
+2023-02-17 15:31:05.1184 Info Torznab search in DivxTotal => Found 100 releases (from cache) 
+2023-02-17 15:31:05.1184 Info Torznab search in MejorTorrent => Found 12 releases (from cache) 
+2023-02-17 15:31:05.1638 Info Torznab search in MoviesDVDR => Found 30 releases (from cache) 
+2023-02-17 15:31:06.1494 Info Torznab search in The Pirate Bay => Found 2 releases 
+2023-02-17 15:32:38.9476 Info Torznab search in DivxTotal => Found 100 releases (from cache) 
+2023-02-17 15:32:38.9476 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 15:32:38.9476 Info Torznab search in MejorTorrent => Found 12 releases (from cache) 
+2023-02-17 15:32:38.9625 Info Torznab search in The Pirate Bay => Found 50 releases (from cache) 
+2023-02-17 15:32:38.9748 Info Torznab search in MoviesDVDR => Found 30 releases (from cache) 
+2023-02-17 15:48:10.4512 Info Torznab search in MejorTorrent => Found 12 releases (from cache) 
+2023-02-17 15:48:10.4512 Info Torznab search in DivxTotal => Found 100 releases (from cache) 
+2023-02-17 15:48:10.4512 Info Torznab search in The Pirate Bay => Found 50 releases (from cache) 
+2023-02-17 15:48:10.4627 Warn Some of the categories provided are unsupported in MoviesDVDR: 5000,5030,8000,8010,108315,114567,114820,117005,117804,151468,155079,2030,2040,2060 
+2023-02-17 15:48:10.5001 Info Torznab search in MoviesDVDR => Found 30 releases (from cache) 
+2023-02-17 15:52:23.7640 Info Jackett stopped 
