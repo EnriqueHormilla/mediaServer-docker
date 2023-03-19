@@ -52,7 +52,7 @@ services:
   transmission:
     profiles: ["base"]
     container_name: transmission
-    image: linuxserver/transmission:version-4.0.0-r6
+    image: linuxserver/transmission:version-4.0.2-r2
     networks:
       - mynetwork
     environment:
@@ -66,15 +66,15 @@ services:
       - 51413:51413
       - 51413:51413/udp
     volumes:
-      - ./platform/transmission-config:/config
-      - ./platform/torrent-downloads:/downloads
-      - ./platform/transmission-watch:/watch
+      - D:/platform/transmission-config:/config
+      - D:/platform/torrent-downloads:/downloads
+      - D:/platform/transmission-watch:/watch
     restart: "unless-stopped"
 
   transmission-vpn:
     profiles: ["vpn"]
     container_name: transmission
-    image: linuxserver/transmission:version-4.0.0-r6
+    image: linuxserver/transmission:version-4.0.2-r2
     networks:
       - mynetwork
     network_mode: service:vpn # Uncomment this line if vpn is enabled
@@ -85,9 +85,9 @@ services:
       - USER=admin
       - PASS=ssampedro
     volumes:
-      - ./platform/transmission-config:/config
-      - ./platform/torrent-downloads:/downloads
-      - ./platform/transmission-watch:/watch
+      - D:/platform/transmission-config:/config
+      - D:/platform/torrent-downloads:/downloads
+      - D:/platform/transmission-watch:/watch
     restart: "unless-stopped"
 
   radarr:
@@ -103,13 +103,13 @@ services:
     ports:
       - 7878:7878
     volumes:
-      - ./platform/radarr-config:/config
-      - ./platform/torrent-downloads:/downloads
+      - D:/platform/radarr-config:/config
+      - D:/platform/torrent-downloads:/downloads
     restart: "unless-stopped"
 
   sonarr:
     profiles: ["base", "vpn"]
-    image: linuxserver/sonarr:3.0.9
+    image: linuxserver/sonarr:3.0.10
     container_name: sonarr
     networks:
       - mynetwork
@@ -118,8 +118,8 @@ services:
       - PGID=1000
       - TZ=Europe/Madrid
     volumes:
-      - ./platform/sonarr-config:/config
-      - ./platform/torrent-downloads:/downloads
+      - D:/platform/sonarr-config:/config
+      - D:/platform/torrent-downloads:/downloads
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -127,7 +127,7 @@ services:
   jackett:
     profiles: ["base", "vpn"]
     container_name: jackett
-    image: linuxserver/jackett:0.20.3150
+    image: linuxserver/jackett:0.20.3627
     networks:
       - mynetwork
     environment:
@@ -135,8 +135,8 @@ services:
       - PGID=1000
       - TZ=Europe/Madrid
     volumes:
-      - ./platform/jackett-config:/config
-      - ./platform/jackett-blackhole:/downloads
+      - D:/platform/jackett-config:/config
+      - D:/platform/jackett-blackhole:/downloads
     ports:
       - 9117:9117
     restart: unless-stopped
@@ -152,8 +152,8 @@ services:
       - PGID=1000
       - TZ=Europe/Madrid
     volumes:
-      - ./platform/jellyfin-config:/config
-      - ./platform/torrent-downloads:/data
+      - D:/platform/jellyfin-config:/config
+      - D:/platform/torrent-downloads:/data
   # devices:
    #  - /dev/videoN:/dev/videoN # Mount GPU device 
     ports:

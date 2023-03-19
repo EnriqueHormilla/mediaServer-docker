@@ -3,7 +3,7 @@
 - Open Radarr at http://localhost:7878
 - Open Sonarr at http://localhost:8989
 - Open Transmission at http://localhost:9091
-- Open Transmission at http://localhost:8096
+- Open Jellyfin at http://localhost:8096
 
 # Install media stack
 
